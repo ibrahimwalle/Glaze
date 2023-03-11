@@ -1,5 +1,7 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from 'react';
+import Polygon from './assets/Polygon.svg';
+
+import './App.css';
 
 function App() {
   const homeTitle = 'We use design & code to grow & amplify your brand’s digital experience.';
@@ -26,21 +28,24 @@ function App() {
     'description': `We develop bespoke solutions to ensure the best digital output and performance.`},
     {'title': 'Enhancement', 
     'description': `We improve and enhance your digital touchpoints to optimise effectiveness over time.`}];
-
   const offices = [
     {'city': 'Sydney', 'address': `pokeus@lashcreative.com.au
     23 Brisbane St, Surry Hills NSW 2010`},
     {'city': 'Seoul', 'address': `jowa@lashcreative.co.kr
     4F, 215-3 Nonhyundong Gangnamgu`},
-  ]  
+  ];
+  const slideShow = ['https://picsum.photos/1080/1220','https://picsum.photos/1080/1280','https://picsum.photos/1080/1080','https://picsum.photos/1080/1000','https://picsum.photos/1080/500','https://picsum.photos/720/980','https://picsum.photos/1080/1300',]  
 
 
   return (
     <div className="App">
-      <div className='header'>Glaze</div>
+      <div className='logo'>Glaze</div>
+      <span className='svgContainer'>
+        <img className='svg' src={Polygon} alt="Logo" />
+      </span>
       <section className='home'>
         <h1>{homeTitle}</h1>
-        <div> 
+        <div className='btnContainer'> 
           <button>Our Work</button>
           <button>What we do</button>
         </div>
@@ -70,25 +75,37 @@ function App() {
       <section>Another Grid Animation</section>
       <section className=''>
         <h2>We’re problem lovers & solvers.</h2>
-        <div>
+        <div className='btnContainer fLeft'>
           <button>About our culture</button>
-          <button>See our insta</button>
+          <button className='instaBtn'>See our insta</button>
         </div>
       </section>
-      <section className='imageSlider'>
-        imageSlider
-      </section>
+      {/* Image slider, repeated 3 times to keep the viewport full while animation loops, so it simulates an infinite loop */}
+      <div className='imageSlider'>
+        <div className="imageContainer">
+          {slideShow.map(el =><img className='slideShowImg' src={el}/>)}
+        </div> 
+        <div className="imageContainer">
+          {slideShow.map(el =><img className='slideShowImg' src={el}/>)}
+        </div>
+        <div className="imageContainer">
+          {slideShow.map(el =><img className='slideShowImg' src={el}/>)}
+        </div>
+      </div>
+      {/* image slider position is absolute, so it sits the space of this empty section. (each section has a min height of 50vh) */}
+      <section></section>
       <footer>
-        <section className='callToAct'>
+        <div className='callToAct'>
           <h2>Let's work together.</h2>
-          <div>
+          <div className='btnContainer fLeft'>
             <button>Get in touch</button>
           </div>
-        </section>
-        <div className='offices'>
-          {offices.map(office => <div>
+        </div>
+        <div className='cardContainer'>
+          {offices.map(office => <div className='office'>
             <h3>{office.city}</h3>
-            <p>{office.address} <a href="">View on map</a></p>
+            <p>{office.address}</p>
+            <a className='officeLink' href="">View on map</a>
           </div>)}
           <div>
             <h3>Follow us</h3>
@@ -96,7 +113,7 @@ function App() {
             <p>Facebook</p>
           </div>
         </div>
-        <div>
+        <div className='flexJustBet'>
           <p>Have a nice day 😎</p>
           <p>Copyrights reserved©</p>
         </div>

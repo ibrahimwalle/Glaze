@@ -3,13 +3,159 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  font-size: large;
+  text-align: left;
 }
 
+/* generalized styling */
+h2{
+  font-size: 2rem;
+  font-weight: 600;
+}
+h3{
+  font-weight: 500;
+}
+section{
+  z-index: 2;
+  position: relative;
+  min-height: 50vh;
+}
+button{
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 1rem 1.5rem;
+  font-size: large;
+  cursor: pointer;
+  transition: background-color 200ms ease-in-out;
+}
+button:hover{
+  background-color: #773dbd;
+  animation: jiggle 400ms cubic-bezier(0.175, 0.885, 0.32, 1.275) alternate;
+}
+.btnContainer{
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.fLeft{
+  justify-content: flex-start;
+}
+.flexJustBet{
+  display: flex;
+  justify-content: space-between;
+}
+/* Component styling */
+
+/* card styling */
 .cardContainer{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 0.5rem;
+  margin-bottom: 5rem;
 }
 .cardImg{
+  display: flex;
+  margin: 0 auto;
+  width: 90%;
+}
+
+/*element specific styling */
+.logo{
+  font-weight: 700;
+  font-size: 3rem;
+  /* float: left; */
+}
+.home{
+  text-align: center;
+}
+.svgContainer{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.svg{
+  z-index: 1;
+  /* left: 40%; */
   width: 300px;
+  animation: rotate 3s ease-in-out 3s infinite;
+}
+
+.instaBtn{
+  background-color: #fff;
+  color: #000;
+  border: #000 solid 2px;
+}
+.instaBtn:hover{
+  background-color: #fff;
+  color: #773dbd;
+  border: #773dbd solid 2px;
+  animation: jiggle 400ms cubic-bezier(0.175, 0.885, 0.32, 1.275) alternate;
+}
+
+.imageSlider{
+  position: absolute;
+  left: 0;
+  display: flex;
+  gap: 1rem;
+}
+.slideShowImg{
+  margin: auto 0 0 0;
+  width: 300px;
+  height: fit-content;
+  object-fit: cover;
+}
+.imageContainer{ 
+  display: flex;
+  gap: 1rem;
+  animation: slide 25s linear 5s infinite backwards;
+}
+
+/* Footer */
+.callToAct{
+  margin: 5rem auto;
+}
+/* Offices */
+.office{
+  max-width: 300px;
+}
+.officeLink{
+  text-decoration: underline black 2px;
+  text-underline-offset: 5px;
+  color: black;
+}
+
+/* Animations */
+/* Logo rotate */
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+/* image slider */
+@keyframes slide {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-101%);
+  }
+}
+/* buttons hover */
+@keyframes jiggle {
+  0%{
+    transform: scale(0.95,0.95);
+  }
+  50%{
+    transform: scale(1.05,1.05);
+  }
+  100%{
+    transform: scale(1,1);
+  }
 }
