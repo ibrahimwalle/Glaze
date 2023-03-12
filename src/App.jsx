@@ -1,5 +1,9 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import { BrowserRouter, Route, Router } from 'react-router-dom';
+import { ReactSVG } from 'react-svg';
 import Polygon from './assets/Polygon.svg';
+import Logo from './assets/Logo.svg';
+import Menu from './assets/menu.svg';
 
 import './App.css';
 
@@ -36,10 +40,24 @@ function App() {
   ];
   const slideShow = ['https://picsum.photos/1080/1220','https://picsum.photos/1080/1280','https://picsum.photos/1080/1080','https://picsum.photos/1080/1000','https://picsum.photos/1080/500','https://picsum.photos/720/980','https://picsum.photos/1080/1300',]  
 
+  const [scrollTop, setScrollTop] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = (event) => {
+      setScrollTop(Math.round(window.scrollY/7));
+    }; 
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  });
 
   return (
-    <div className="App">
-      <div className='logo'>Glaze</div>
+    <div className='App'>
+      <div>
+        <img className='logo' src={Logo} alt="Logo" />
+      </div>
       <span className='svgContainer'>
         <img className='svg' src={Polygon} alt="Logo" />
       </span>
@@ -50,14 +68,16 @@ function App() {
           <button>What we do</button>
         </div>
       </section>
-      <section>Grid Animation</section>
+      <section>
+        <ConnectAnimation />
+      </section>
       <section className='featuredWork'>
         <h2>Featured case studies</h2>
         <div className='cardContainer'>
           {workCards.map(work => <div className='card'>
             <img className='cardImg' src={work.imgUrl}/>
-            <h3>{work.title}</h3>
-            <p>{work.description}</p>
+            <h3 className='cardTitle'>{work.title}</h3>
+            <p className='cardText'>{work.description}</p>
           </div>)}
         </div>
       </section>
@@ -70,9 +90,13 @@ function App() {
             <p>{service.description}</p>
           </div>)}
         </div>
-        <button>Our services</button>
+        <div className="btnContainer fLeft">
+          <button>Our services</button>
+        </div>
       </section>
-      <section>Another Grid Animation</section>
+      <section style={{'--angle': scrollTop + 'deg'}}>
+        <GridBarAnimation />
+      </section>
       <section className=''>
         <h2>We’re problem lovers & solvers.</h2>
         <div className='btnContainer fLeft'>
@@ -121,5 +145,74 @@ function App() {
     </div>
   )
 }
+
+function GridBarAnimation(props) {
+  return (
+      <div className="wrapper">
+        <div className="animations">
+          <div className="bar rotate purple"></div>
+          <div className="bar"></div>
+          <div className="bar rotate yellow"></div>
+          <div className="bar rotate purple"></div>
+          <div className="bar"></div>
+          <div className="bar"></div>
+          <div className="bar rotate yellow"></div>
+          <div className="bar"></div>
+          <div className="bar"></div>
+          <div className="bar rotate purple"></div>
+        </div>
+        <div className="animations">
+          <div className="bar"></div>
+          <div className="bar rotate yellow"></div>
+          <div className="bar rotate purple"></div>
+          <div className="bar"></div>
+          <div className="bar"></div>
+          <div className="bar rotate yellow"></div>
+          <div className="bar"></div>
+          <div className="bar"></div>
+          <div className="bar rotate purple"></div>
+          <div className="bar"></div>
+        </div>
+        <div className="animations">
+          <div className="bar"></div>
+          <div className="bar"></div>
+          <div className="bar rotate yellow"></div>
+          <div className="bar"></div>
+          <div className="bar rotate purple"></div>
+          <div className="bar rotate yellow"></div>
+          <div className="bar"></div>
+          <div className="bar"></div>
+          <div className="bar rotate purple"></div>
+          <div className="bar"></div>
+        </div>
+    </div>
+)}
+
+function ConnectAnimation(props) {
+  const grid = [
+  [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+  [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+  [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+  [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+  [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+  [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+  [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+  [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]];
+  const c = [(2,3),(0,3),(0,6),(2,6)];
+  const r = [(4,3),(3,3),(3,6)];
+  const e1= [(6,4),(7,4),(7,3),(5,3),(5,6),(7,6)];
+  const a = [(10,6),(9,6),(8,6),(8,3),(9,3),(9,6)];
+  const t = [(11,0),(11,3),(13,3),(11,3),(11,6),(13,6)];
+  const e2= [(15,4),(16,4),(16,3),(14,3),(14,6),(16,6)];
+  return (
+    <div className="container">
+      {grid.map((row,i) => {
+        return (
+          <div key={i} className="row">{row.map((dot,j) => {
+            return (<div key={j} className='dot'></div>)
+          })}</div>
+        )})}
+    </div>
+)}
 
 export default App

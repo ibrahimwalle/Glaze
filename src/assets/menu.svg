@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="479.637" height="757.637" viewBox="0 0 479.637 757.637">
+  <defs>
+    <filter id="Path_1" x="360.363" y="0" width="119.273" height="119.273" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#7f2cdb" flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="menu" transform="translate(0 9)">
+    <g transform="matrix(1, 0, 0, 1, 0, -9)" filter="url(#Path_1)">
+      <path id="Path_1-2" data-name="Path 1" d="M50.637,0A50.637,50.637,0,1,1,0,50.637,50.637,50.637,0,0,1,50.637,0Z" transform="translate(369.36 9)" fill="#7f2cdb"/>
+    </g>
+    <circle id="Circle" cx="39" cy="39" r="39" transform="translate(381 11.637)" fill="#fff" opacity="0"/>
+    <path id="Path_2" data-name="Path 2" d="M0,0H54.695V7.956H0Z" transform="translate(393.151 37.711)" fill="#fff"/>
+    <path id="Path_3" data-name="Path 3" d="M0,0H54.695V7.956H0Z" transform="translate(393.151 56.606)" fill="#fff"/>
+    <text id="Home" transform="translate(0 324.637)" fill="#fff" font-size="80" font-family="Poppins-SemiBold, Poppins" font-weight="600" opacity="0"><tspan x="0" y="0">Home</tspan></text>
+    <text id="Work" transform="translate(50 456.637)" fill="#fff" font-size="80" font-family="Poppins-SemiBold, Poppins" font-weight="600" opacity="0"><tspan x="0" y="0">Work</tspan></text>
+    <text id="Services" transform="translate(120 588.637)" fill="#fff" font-size="80" font-family="Poppins-SemiBold, Poppins" font-weight="600" opacity="0"><tspan x="0" y="0">Services</tspan></text>
+    <text id="About" transform="translate(230 720.637)" fill="#fff" font-size="80" font-family="Poppins-SemiBold, Poppins" font-weight="600" opacity="0"><tspan x="0" y="0">About</tspan></text>
+  </g>
+</svg>

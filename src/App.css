@@ -5,6 +5,8 @@
   text-align: center;
   font-size: large;
   text-align: left;
+  --accent1: #773dbd;
+  --accent2: #fee003;
 }
 
 /* generalized styling */
@@ -13,12 +15,16 @@ h2{
   font-weight: 600;
 }
 h3{
-  font-weight: 500;
+  font-weight: 600;
 }
 section{
   z-index: 2;
   position: relative;
   min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 2rem;
 }
 button{
   background-color: #000;
@@ -31,7 +37,7 @@ button{
   transition: background-color 200ms ease-in-out;
 }
 button:hover{
-  background-color: #773dbd;
+  background-color: var(--accent1);
   animation: jiggle 400ms cubic-bezier(0.175, 0.885, 0.32, 1.275) alternate;
 }
 .btnContainer{
@@ -46,6 +52,12 @@ button:hover{
   display: flex;
   justify-content: space-between;
 }
+.yellow{
+  background-color: var(--accent2)!important;
+}
+.purple{
+  background-color: var(--accent1)!important;
+}
 /* Component styling */
 
 /* card styling */
@@ -55,17 +67,22 @@ button:hover{
   grid-gap: 0.5rem;
   margin-bottom: 5rem;
 }
+.cardTitle,.cardText,.cardImg{
+  max-width: 90%;
+  margin: 1rem auto;
+}
 .cardImg{
   display: flex;
-  margin: 0 auto;
-  width: 90%;
+  cursor: pointer;
+  transition: transform 200ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.cardImg:hover{
+  transform: scale(1.05,1.05);
 }
 
 /*element specific styling */
 .logo{
-  font-weight: 700;
-  font-size: 3rem;
-  /* float: left; */
+  width: 10rem;
 }
 .home{
   text-align: center;
@@ -76,6 +93,7 @@ button:hover{
   width: 100%;
   display: flex;
   justify-content: center;
+  min-height: 50vh;
 }
 .svg{
   z-index: 1;
@@ -91,8 +109,8 @@ button:hover{
 }
 .instaBtn:hover{
   background-color: #fff;
-  color: #773dbd;
-  border: #773dbd solid 2px;
+  color: var(--accent1);
+  border: var(--accent1) solid 2px;
   animation: jiggle 400ms cubic-bezier(0.175, 0.885, 0.32, 1.275) alternate;
 }
 
@@ -112,6 +130,51 @@ button:hover{
   display: flex;
   gap: 1rem;
   animation: slide 25s linear 5s infinite backwards;
+}
+
+/* connect grid animation */
+.container{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+}
+.row{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+}
+.dot{
+  background-color: grey;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50px;
+  margin: auto;
+}
+
+/* Bar grid animation */
+.wrapper{
+  max-width: calc(1664px + 10%);
+  height: 50vh;
+  display: grid;
+  grid-template-rows: 33% 33% 33%;
+  gap: 2rem;
+}
+.animations{
+  display: grid;
+  grid-template-columns:7% 7% 7% 7% 7% 7% 7% 7% 7% 7%;
+  gap: 2rem;
+  margin: auto;
+}
+.bar{
+  background-color: grey;
+  width: 5rem;
+  height: 1rem;
+  border-radius: 20px;
+  margin: auto;
+  transform: rotate(90deg);
+}
+.bar.rotate{
+  transform: rotate(var(--angle));
 }
 
 /* Footer */
