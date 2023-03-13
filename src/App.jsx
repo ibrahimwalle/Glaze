@@ -16,10 +16,8 @@ import './App.css';
 
 function App() {  
   const offices = [
-    {'city': 'Sydney', 'address': `pokeus@lashcreative.com.au
-    23 Brisbane St, Surry Hills NSW 2010`},
-    {'city': 'Seoul', 'address': `jowa@lashcreative.co.kr
-    4F, 215-3 Nonhyundong Gangnamgu`}];
+    {'city': 'California', 'address': `26985 Brighton Lane, Lake Forest, CA 92630`},
+    {'city': 'Athens', 'address': `Keas 69 Str. 15234, Chalandri`}];
   const [currentMenu, setCurrentMenu] = useState(openMenu);
   const [activeLink, setActiveLink] = useState('home');
   const menu = useRef(null);
