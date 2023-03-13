@@ -18,6 +18,20 @@ function App() {
   const offices = [
     {'city': 'California', 'address': `26985 Brighton Lane, Lake Forest, CA 92630`},
     {'city': 'Athens', 'address': `Keas 69 Str. 15234, Chalandri`}];
+  const workCards = [
+    {'title': 'Su-Bank', 
+    'description': `Supporting Su-Bank China's digital and marketing communications since 2013.`, 
+    'imgUrl': SuBank},
+    {'title': 'Simple Invest', 
+    'description': `Managing the average person's investments in a profitable and low risk manner.`, 
+    'imgUrl': SimpleInvest},
+    {'title': 'Move-in', 
+    'description': `Looking after the digital space for one of the World's top POS payment solutions.`, 
+    'imgUrl': Movein},
+    {'title': 'A&P', 
+    'description': `Creating annual strategy and marketing plans for one of Korea's biggest FMCGs.`, 
+    'imgUrl': AP}];
+  const slideShow = ['https://picsum.photos/1080/1220','https://picsum.photos/1080/1280','https://picsum.photos/1080/1080','https://picsum.photos/1080/1000','https://picsum.photos/1080/500','https://picsum.photos/720/980','https://picsum.photos/1080/1300',];
   const [currentMenu, setCurrentMenu] = useState(openMenu);
   const [activeLink, setActiveLink] = useState('home');
   const menu = useRef(null);
@@ -26,7 +40,8 @@ function App() {
 
   const toggleNav = () => {
     menu.current.classList.toggle('opened');
-    currentMenu == openMenu? setCurrentMenu(closeMenu) : setCurrentMenu(openMenu)
+    currentMenu == openMenu? setCurrentMenu(closeMenu) : setCurrentMenu(openMenu);
+    animateDotDefault();
   }
   const animateDot = (event) =>{
     const path = event.target.dataset.path;
@@ -69,12 +84,16 @@ function App() {
   const navigate = (event) =>{
     const path = event.target.dataset.path;
     setActiveLink(path);
+    // animateDotDefault();
     toggleNav();
   }
 
   return (
     <BrowserRouter>
       <div className="App">
+        <Link to={'/home'} onClick={()=>{setActiveLink('home')}}>
+          <ReactSVG className='logo' src={Logo} alt="Logo" />
+        </Link>
         <div className="nav">
           <ReactSVG className='menuBtn' ref={menuBtn} src={currentMenu} onClick={toggleNav}/>
           <div className='menu' ref={menu}>
@@ -83,16 +102,16 @@ function App() {
                 <div className='dot' ref={dot}></div>
               </div>
               <ul className="navLinks">
-                <Link to={"home"} data-path={'home'} onMouseEnter={animateDot} onMouseLeave={animateDotDefault} onClick={navigate}>Home</Link>
-                <Link to={"work"}  data-path={'work'} onMouseEnter={animateDot} onMouseLeave={animateDotDefault} onClick={navigate}>Work</Link>
-                <Link to={"services"} data-path={'services'} onMouseEnter={animateDot} onMouseLeave={animateDotDefault} onClick={navigate}>Services</Link>
-                <Link to={"about"} data-path={'about'} onMouseEnter={animateDot} onMouseLeave={animateDotDefault} onClick={navigate}>About</Link>
+                <Link to={"/home"} data-path={'home'} onMouseEnter={animateDot} onMouseLeave={animateDotDefault} onClick={navigate}>Home</Link>
+                <Link to={"/work"}  data-path={'work'} onMouseEnter={animateDot} onMouseLeave={animateDotDefault} onClick={navigate}>Work</Link>
+                <Link to={"/services"} data-path={'services'} onMouseEnter={animateDot} onMouseLeave={animateDotDefault} onClick={navigate}>Services</Link>
+                <Link to={"/about"} data-path={'about'} onMouseEnter={animateDot} onMouseLeave={animateDotDefault} onClick={navigate}>About</Link>
               </ul>
             </div>
           </div>
         </div>
         <Routes>
-          <Route path='/home' element={<HomeComponent />}/>
+          <Route path='/home' element={<HomeComponent workCards={workCards} slideShow={slideShow} setActiveLink={setActiveLink}/>}/>
           <Route path='/work' element={<WorkComponent />}/>
           <Route path='/services' element={null}/>
           <Route path='/about' element={null}/>
@@ -105,7 +124,7 @@ function App() {
               </div>
             </div>
             <div className='cardContainer'>
-              {offices.map(office => <div className='office'>
+              {offices.map((office,i) => <div key={i} className='office'>
                 <h3>{office.city}</h3>
                 <p>{office.address}</p>
                 <a className='officeLink' href="">View on map</a>
@@ -126,23 +145,9 @@ function App() {
   )
 }
 
-function HomeComponent(props) {
+function HomeComponent({workCards, slideShow, setActiveLink}) {
 
   const homeTitle = 'We use design & code to grow & amplify your brand’s digital experience.';
-  const workCards = [
-    {'title': 'Su-Bank', 
-    'description': `Supporting Su-Bank China's digital and marketing communications since 2013.`, 
-    'imgUrl': SuBank},
-    {'title': 'Simple Invest', 
-    'description': `Managing the average person's investments in a profitable and low risk manner.`, 
-    'imgUrl': SimpleInvest},
-    {'title': 'Move-in', 
-    'description': `Looking after the digital space for one of the World's top POS payment solutions.`, 
-    'imgUrl': Movein},
-    {'title': 'A&P', 
-    'description': `Creating annual strategy and marketing plans for one of Korea's biggest FMCGs.`, 
-    'imgUrl': AP}
-  ];
   const services = [
     {'title': 'Strategy', 
     'description': `We develop strategies to ensure your business grows from a solid foundation.`},
@@ -152,7 +157,6 @@ function HomeComponent(props) {
     'description': `We develop bespoke solutions to ensure the best digital output and performance.`},
     {'title': 'Enhancement', 
     'description': `We improve and enhance your digital touchpoints to optimise effectiveness over time.`}];
-  const slideShow = ['https://picsum.photos/1080/1220','https://picsum.photos/1080/1280','https://picsum.photos/1080/1080','https://picsum.photos/1080/1000','https://picsum.photos/1080/500','https://picsum.photos/720/980','https://picsum.photos/1080/1300',]  
   const [scrollTop, setScrollTop] = useState(0);
 
   useEffect(() => {
@@ -168,43 +172,34 @@ function HomeComponent(props) {
 
   return (
     <div className='homeComponent'>
-          <div>
-            <ReactSVG className='logo' src={Logo} alt="Logo" />
-          </div>
           <span className='svgContainer'>
             <img className='svg' src={Polygon} alt="Logo" />
           </span>
           <section className='home'>
             <h1>{homeTitle}</h1>
             <div className='btnContainer'> 
-              <button>Our Work</button>
-              <button className='oddBtn'>What we do</button>
+              <Link to={'/work'} onClick={()=>setActiveLink('work')}><button>Our Work</button></Link>
+              <Link to={'/services'} onClick={()=>setActiveLink('services')}><button className='oddBtn'>What we do</button></Link>
             </div>
           </section>
-          <section>
+          {/* <section>
             <ConnectAnimation />
-          </section>
+          </section> */}
           <section className='featuredWork'>
             <h2>Featured case studies</h2>
-            <div className='cardContainer'>
-              {workCards.map(work => <div className='card'>
-                <img className='cardImg' src={work.imgUrl}/>
-                <h3 className='cardTitle'>{work.title}</h3>
-                <p className='cardText'>{work.description}</p>
-              </div>)}
-            </div>
+            <FeaturedWork workCards={workCards}/>
           </section>
           <section className='services'>
             <h2>How we help businesses grow.</h2>
             <div className='cardContainer'>
-              {services.map(service => <div className='card'>
+              {services.map((service,i) => <div key={i} className='card'>
                 <div>SVG Animation</div>
                 <h3>{service.title}</h3>
                 <p>{service.description}</p>
               </div>)}
             </div>
             <div className="btnContainer fLeft">
-              <button>Our services</button>
+            <Link to={'/services'} onClick={()=>setActiveLink('services')}><button>Our services</button></Link>
             </div>
           </section>
           <section style={{'--angle': scrollTop + 'deg'}}>
@@ -213,24 +208,11 @@ function HomeComponent(props) {
           <section className=''>
             <h2>We’re problem lovers & solvers.</h2>
             <div className='btnContainer fLeft'>
-              <button>About our culture</button>
+              <Link to={'/about'} onClick={()=>setActiveLink('about')}><button>About our culture</button></Link>
               <button className='oddBtn'>See our insta</button>
             </div>
           </section>
-          {/* Image slider, repeated 3 times to keep the viewport full while animation loops, so it simulates an infinite loop */}
-          <div className='imageSlider'>
-            <div className="imageContainer">
-              {slideShow.map(el =><img className='slideShowImg' src={el}/>)}
-            </div> 
-            <div className="imageContainer">
-              {slideShow.map(el =><img className='slideShowImg' src={el}/>)}
-            </div>
-            <div className="imageContainer">
-              {slideShow.map(el =><img className='slideShowImg' src={el}/>)}
-            </div>
-          </div>
-          {/* image slider position is absolute, so it sits the space of this empty section. (each section has a min height of 50vh) */}
-          <section></section>
+          <ImageSlider slideShow={slideShow}/>
         </div>
 )}
 function GridBarAnimation(props) {
@@ -307,6 +289,37 @@ function WorkComponent(props) {
     <div>
       <h1>Hello</h1>
     </div>
+)}
+
+function FeaturedWork({workCards}){
+  return(
+    <div className='cardContainer'>
+      {workCards.map((work,i) => <div key={i} className='card'>
+        <img className='cardImg' src={work.imgUrl}/>
+        <h3 className='cardTitle'>{work.title}</h3>
+        <p className='cardText'>{work.description}</p>
+      </div>)}
+    </div>
+)}
+
+function ImageSlider({slideShow}){
+  return(
+    <>
+      {/* Image slider, repeated 3 times to keep the viewport full while animation loops, so it simulates an infinite loop */}
+      <div className='imageSlider'>
+        <div className="imageContainer">
+        {slideShow.map((el,i) =><img key={i} className='slideShowImg' src={el}/>)}
+        </div> 
+        <div className="imageContainer">
+        {slideShow.map((el,i) =><img key={i} className='slideShowImg' src={el}/>)}
+        </div>
+        <div className="imageContainer">
+        {slideShow.map((el,i) =><img key={i} className='slideShowImg' src={el}/>)}
+        </div>
+      </div>
+      {/* image slider position is absolute, so it sits the space of this empty section. (each section has a min height of 50vh) */}
+      <section></section>
+    </>
 )}
 
 export default App
