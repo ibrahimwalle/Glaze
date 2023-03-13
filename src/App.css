@@ -272,6 +272,21 @@ button:hover{
   transform: rotate(var(--angle));
 }
 
+/* Work Component */
+
+.archivedWorks{
+  display: grid;
+  grid-auto-rows: 1fr;
+}
+.archived{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  border-top: 2px solid grey;
+}
+.archived:last-child{
+  border-bottom: 2px solid grey;
+}
+
 /* Footer */
 .callToAct{
   margin: 5rem auto;
