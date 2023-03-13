@@ -1,0 +1,10 @@
+<svg id="A_P" data-name="A&amp;P" xmlns="http://www.w3.org/2000/svg" width="398" height="503" viewBox="0 0 398 503">
+  <g id="Rectangle_7" data-name="Rectangle 7" fill="#fff" stroke="#707070" stroke-width="1">
+    <rect width="398" height="503" rx="30" stroke="none"/>
+    <rect x="0.5" y="0.5" width="397" height="502" rx="29.5" fill="none"/>
+  </g>
+  <rect id="Rectangle_60" data-name="Rectangle 60" width="398" height="503" rx="30" fill="#ececec" opacity="0"/>
+  <text id="A_P-2" data-name="A&amp;P" transform="translate(104 170)" fill="#7f2cdb" font-size="104" font-family="ae_Cortoba"><tspan x="0" y="0">A&amp;P</tspan></text>
+  <path id="Rectangle_59" data-name="Rectangle 59" d="M0,0H398a0,0,0,0,1,0,0V222a30,30,0,0,1-30,30H30A30,30,0,0,1,0,222V0A0,0,0,0,1,0,0Z" transform="translate(0 251)" fill="#7f2cdb"/>
+  <text id="A_P-3" data-name="A&amp;P" transform="translate(104 410)" fill="#fff" font-size="104" font-family="ae_Cortoba"><tspan x="0" y="0">A&amp;P</tspan></text>
+</svg>

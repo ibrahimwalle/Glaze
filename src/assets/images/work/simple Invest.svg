@@ -1,0 +1,28 @@
+<svg id="simple_Invest" data-name="simple Invest" xmlns="http://www.w3.org/2000/svg" width="398" height="503" viewBox="0 0 398 503">
+  <g id="Rectangle_5" data-name="Rectangle 5" fill="#fff" stroke="#707070" stroke-width="1">
+    <rect width="398" height="503" rx="30" stroke="none"/>
+    <rect x="0.5" y="0.5" width="397" height="502" rx="29.5" fill="none"/>
+  </g>
+  <rect id="Rectangle_57" data-name="Rectangle 57" width="398" height="503" rx="30" fill="#ececec" opacity="0"/>
+  <g id="_3" data-name="3" transform="translate(21812.855 19256.871)">
+    <path id="Rectangle_53" data-name="Rectangle 53" d="M0,0H7a5,5,0,0,1,5,5V29a0,0,0,0,1,0,0H5a5,5,0,0,1-5-5V0A0,0,0,0,1,0,0Z" transform="translate(-21716.947 -18868.057) rotate(30)" fill="#3fb3dc"/>
+    <path id="Rectangle_54" data-name="Rectangle 54" d="M0,0H7a5,5,0,0,1,5,5V29a0,0,0,0,1,0,0H5a5,5,0,0,1-5-5V0A0,0,0,0,1,0,0Z" transform="translate(-21711.947 -18847.057) rotate(30)" fill="#3fb3dc"/>
+    <text id="Simple" transform="translate(-21696.305 -18832.057)" fill="#929292" font-size="31" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Simple</tspan></text>
+    <text id="Invest" transform="translate(-21586.264 -18832.057)" fill="#b5b5b5" font-size="31" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="0" y="0">Invest</tspan></text>
+  </g>
+  <g id="_2" data-name="2" transform="translate(21812.855 19093.5)">
+    <rect id="Rectangle_55" data-name="Rectangle 55" width="398" height="161" transform="translate(-21812.855 -18922.5)" fill="#3fb3dc"/>
+    <g id="_2-2" data-name="2">
+      <path id="Rectangle_53-2" data-name="Rectangle 53" d="M0,0H7a5,5,0,0,1,5,5V29a0,0,0,0,1,0,0H5a5,5,0,0,1-5-5V0A0,0,0,0,1,0,0Z" transform="translate(-21716.947 -18868.057) rotate(30)" fill="#fff"/>
+      <path id="Rectangle_54-2" data-name="Rectangle 54" d="M0,0H7a5,5,0,0,1,5,5V29a0,0,0,0,1,0,0H5a5,5,0,0,1-5-5V0A0,0,0,0,1,0,0Z" transform="translate(-21711.947 -18847.057) rotate(30)" fill="#fff"/>
+      <text id="Simple-2" data-name="Simple" transform="translate(-21696.305 -18832.057)" fill="#fff" font-size="31" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Simple</tspan></text>
+      <text id="Invest-2" data-name="Invest" transform="translate(-21586.264 -18832.057)" fill="#fff" font-size="31" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="0" y="0">Invest</tspan></text>
+    </g>
+  </g>
+  <g id="_1" data-name="1" transform="translate(21812.855 18929)">
+    <path id="Rectangle_53-3" data-name="Rectangle 53" d="M0,0H7a5,5,0,0,1,5,5V29a0,0,0,0,1,0,0H5a5,5,0,0,1-5-5V0A0,0,0,0,1,0,0Z" transform="translate(-21716.947 -18868.057) rotate(30)" fill="#3fb3dc"/>
+    <path id="Rectangle_54-3" data-name="Rectangle 54" d="M0,0H7a5,5,0,0,1,5,5V29a0,0,0,0,1,0,0H5a5,5,0,0,1-5-5V0A0,0,0,0,1,0,0Z" transform="translate(-21711.947 -18847.057) rotate(30)" fill="#3fb3dc"/>
+    <text id="Simple-3" data-name="Simple" transform="translate(-21696.305 -18832.057)" fill="#3fb3dc" font-size="31" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Simple</tspan></text>
+    <text id="Invest-3" data-name="Invest" transform="translate(-21586.264 -18832.057)" fill="#3fb3dc" font-size="31" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="0" y="0">Invest</tspan></text>
+  </g>
+</svg>

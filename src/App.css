@@ -26,12 +26,19 @@ section{
   justify-content: center;
   margin-bottom: 2rem;
 }
+.btnContainer{
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
 button{
+  flex: 1;
+  max-width: 11rem;
   background-color: #000;
   color: #fff;
   border: none;
-  border-radius: 5px;
-  padding: 1rem 1.5rem;
+  border-radius: 50px;
+  padding: 1rem 0.5rem;
   font-size: large;
   cursor: pointer;
   transition: background-color 200ms ease-in-out;
@@ -39,11 +46,6 @@ button{
 button:hover{
   background-color: var(--accent1);
   animation: jiggle 400ms cubic-bezier(0.175, 0.885, 0.32, 1.275) alternate;
-}
-.btnContainer{
-  display: flex;
-  justify-content: center;
-  gap: 0.5rem;
 }
 .fLeft{
   justify-content: flex-start;
@@ -81,12 +83,107 @@ button:hover{
 }
 
 /*element specific styling */
+/* nav */
+.nav{
+  z-index: 3;
+  position: fixed;
+  top: 25px;
+  left: 90%;
+  height: fit-content;
+  width: auto;
+  padding: 1rem;
+}
+.menuBtn{
+  z-index: 4;
+  position: relative;
+  transition: all 400ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  cursor: pointer;
+}
+.menuBtn:hover{
+  transform: rotate(-45deg);
+}
+.menuBtn > div > svg{
+  display: block;
+  width: 4rem;
+  height: min-content;
+  transform: 0;
+  opacity: 1;
+  transition: all 400ms ease-in-out;
+}
+.menuBtn > div > svg:hover{
+  animation: jiggle 400ms cubic-bezier(0.175, 0.885, 0.32, 1.275) alternate;
+}
+.menuBtn > div > svg:active{
+  opacity: 0;
+}
+.menu{
+  position: fixed;
+  top: 0;
+  right: 0%;
+  height: 0;
+  width: 0;
+  background-color: none;
+  transition: all 1s ease-in-out;
+  border-top-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+  border-bottom-left-radius: 100%;
+}
+.menu.opened{
+  height: 100svh;
+  width: 100%;
+  border-radius: 0;
+  background-color: var(--accent1);
+}
+.linksContainer{
+  position: fixed;
+  display: grid;
+  margin: 15% auto auto 60%;
+  opacity: 0;
+  transition: all s ease-out;
+}
+.menu.opened > .linksContainer{
+  opacity: 1;
+}
+.linksContainer> *{
+  height: 50vh;
+}
+.dotContainer{
+  position: fixed;
+}
+.dotContainer> .dot{
+  background-color: white!important;
+  position: absolute;
+  top: 10%;
+  transition: all 200ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  /* top: 10; Home
+  top: 35; Work
+  top: 60; Services
+  top: 85; About */
+}
+.navLinks{
+  display: grid;
+  width: min-content; 
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 0;
+}
+.navLinks > a{
+  color: white;
+  text-decoration: none;
+}
+.navLinks > a:hover{
+  animation: jiggle 400ms cubic-bezier(0.175, 0.885, 0.32, 1.275) alternate;
+}
+
+/* HomeComponent */
+/* home Section */
 .logo{
   width: 10rem;
 }
 .home{
   text-align: center;
 }
+/* Rotating Svg */
 .svgContainer{
   position: absolute;
   left: 0;
@@ -97,23 +194,22 @@ button:hover{
 }
 .svg{
   z-index: 1;
-  /* left: 40%; */
   width: 300px;
   animation: rotate 3s ease-in-out 3s infinite;
 }
-
-.instaBtn{
-  background-color: #fff;
+/* odd button style */
+.oddBtn{
+  background-color: transparent;
   color: #000;
   border: #000 solid 2px;
 }
-.instaBtn:hover{
-  background-color: #fff;
+.oddBtn:hover{
+  background-color: transparent;
   color: var(--accent1);
   border: var(--accent1) solid 2px;
   animation: jiggle 400ms cubic-bezier(0.175, 0.885, 0.32, 1.275) alternate;
 }
-
+/* Image Slider styling */
 .imageSlider{
   position: absolute;
   left: 0;
@@ -222,3 +318,12 @@ button:hover{
     transform: scale(1,1);
   }
 }
+
+/* 
+@media only screen and (max-device-width : 1024px) {
+  .fixed {
+      position:fixed;
+      top:0;
+      left: 0;
+  }
+} */

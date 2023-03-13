@@ -1,0 +1,26 @@
+<svg id="Subank" xmlns="http://www.w3.org/2000/svg" width="398" height="503" viewBox="0 0 398 503">
+  <g id="Rectangle_4" data-name="Rectangle 4" fill="#fff" stroke="#707070" stroke-width="1">
+    <rect width="398" height="503" rx="30" stroke="none"/>
+    <rect x="0.5" y="0.5" width="397" height="502" rx="29.5" fill="none"/>
+  </g>
+  <rect id="Rectangle_58" data-name="Rectangle 58" width="398" height="503" rx="30" fill="#ececec" opacity="0"/>
+  <path id="Rectangle_52" data-name="Rectangle 52" d="M0,0H398a0,0,0,0,1,0,0V177a30,30,0,0,1-30,30H30A30,30,0,0,1,0,177V0A0,0,0,0,1,0,0Z" transform="translate(0 296)" fill="#014efe"/>
+  <g id="Subank-2" data-name="Subank" transform="translate(-129.615 -1878.078)">
+    <g id="Group_2" data-name="Group 2" transform="translate(205.842 1989)">
+      <path id="Union_1" data-name="Union 1" d="M0,23.639A23.64,23.64,0,0,1,23.639,0q.332,0,.662.009H71.43s.088,45.6-45.385,47.149a23.922,23.922,0,0,1-2.406.121A23.64,23.64,0,0,1,0,23.639Z" transform="translate(0 0)" fill="#024dff"/>
+      <path id="Union_2" data-name="Union 2" d="M0,23.64A23.64,23.64,0,0,1,23.64,0q.332,0,.662.009H71.43s.088,45.6-45.385,47.15a23.922,23.922,0,0,1-2.406.121A23.64,23.64,0,0,1,0,23.64Z" transform="translate(71.43 70.92) rotate(180)" fill="#3fe1f7"/>
+      <path id="Intersection_1" data-name="Intersection 1" d="M0,18.532C6.428,9.07,17.467.768,36.424.121A23.834,23.834,0,0,1,38.829,0,23.539,23.539,0,0,1,53.507,5.108C47.079,14.569,36.04,22.872,17.084,23.519a24.015,24.015,0,0,1-2.406.12A23.538,23.538,0,0,1,0,18.532Z" transform="translate(8.961 23.64)" fill="#fff"/>
+    </g>
+    <text id="Su" transform="translate(287.333 2036.846)" font-size="44" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Su</tspan></text>
+    <text id="Bank" transform="translate(346.388 2036.846)" font-size="44" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="0" y="0">Bank</tspan></text>
+  </g>
+  <g id="Subank-3" data-name="Subank" transform="translate(-129.877 -1884.078)">
+    <g id="Group_3" data-name="Group 3" transform="translate(205.842 2248.071)">
+      <path id="Union_1-2" data-name="Union 1" d="M0,23.671A23.672,23.672,0,0,1,23.671,0Q24,0,24.335.009H71.527s.088,45.658-45.447,47.213a23.955,23.955,0,0,1-2.409.121A23.672,23.672,0,0,1,0,23.671Z" transform="translate(0 0)" fill="#fff"/>
+      <path id="Union_2-2" data-name="Union 2" d="M0,23.672A23.672,23.672,0,0,1,23.672,0Q24,0,24.335.009H71.527s.088,45.659-45.447,47.214a23.954,23.954,0,0,1-2.409.121A23.672,23.672,0,0,1,0,23.672Z" transform="translate(71.527 71.016) rotate(180)" fill="#3fe1f7"/>
+      <path id="Intersection_1-2" data-name="Intersection 1" d="M0,18.557C6.437,9.082,17.491.769,36.473.121A23.866,23.866,0,0,1,38.882,0a23.571,23.571,0,0,1,14.7,5.115C47.143,14.589,36.089,22.9,17.107,23.551a24.048,24.048,0,0,1-2.409.121A23.57,23.57,0,0,1,0,18.557Z" transform="translate(8.974 23.672)" fill="#014efe"/>
+    </g>
+    <text id="Su-2" data-name="Su" transform="translate(287.444 2295.918)" fill="#fff" font-size="44" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Su</tspan></text>
+    <text id="Bank-2" data-name="Bank" transform="translate(346.578 2295.918)" fill="#fff" font-size="44" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="0" y="0">Bank</tspan></text>
+  </g>
+</svg>
