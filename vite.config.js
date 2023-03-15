@@ -15,4 +15,7 @@ export default defineConfig({
       reporter: ["text"]
     }
   },
+  build:{
+    outDir: './public'
+  }
 })
