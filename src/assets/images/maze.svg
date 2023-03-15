@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="480px" height="381px" viewBox="0 0 480 381" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style>
+        circle {
+            animation: maze 5s 3s infinite alternate;
+        }
+
+        @keyframes maze {
+            3% {
+                transform: translate(0, 0);
+            }
+            20% {
+                transform: translate(54%, 0);
+            }
+            40% {
+                transform: translate(54%, 32%);
+            }
+            60% {
+                transform: translate(33%, 33%);
+            }
+            80% {
+                transform: translate(33%, 64%);
+            }
+            100% {
+                transform: translate(84%, 64%);
+            }
+        }
+    </style>
+
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Ball Maze Animation</title>
+    <desc>Created with Sketch.</desc>
+    <g id="concept" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0, 10)">
+        <g id="what-we-do" stroke="#000000">
+            <g id="feature">
+                <g id="game" >
+                    <circle id="dot" cx="33" cy="60.5" r="32" stroke="#773dbd" fill="#773dbd"></circle>
+                    <g id="map" stroke-width="20">
+                        <line x1="0" y1="240.5" x2="142" y2="240.5" id="line1"></line>
+                        <line x1="0" y1="360.5" x2="480" y2="360.5" id="line2"></line>
+                        <line x1="0" y1="120.5" x2="238" y2="120.5" id="line3"></line>
+                        <line x1="0" y1="0" x2="480" y2="0" id="line4"></line>
+                        <line x1="338" y1="120.5" x2="480" y2="120.5" id="line5"></line>
+                        <line x1="240" y1="240.5" x2="480" y2="240.5" id="line6"></line>
+                        <line x1="409" y1="0.5" x2="409" y2="120.5" id="line7"></line>
+                        <line x1="71" y1="240" x2="71" y2="360.5" id="line8"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -33,7 +33,7 @@ function HomeComponent({workCards, slideShow, setActiveLink}) {
   
     return (
       <div className='homeComponent'>
-            <span className='svgContainer'>
+            <span className='polygonContainer'>
               <img className='svg' src={Polygon} alt="Logo" />
             </span>
             <section className='home'>
@@ -54,7 +54,14 @@ function HomeComponent({workCards, slideShow, setActiveLink}) {
               <h2>How we help businesses grow.</h2>
               <div className='cardContainer'>
                 {services.map((service,i) => <div key={i} className='card'>
-                  <div>SVG Animation</div>
+                  <div className='svgContainer'>
+                    <svg width={"50"} height={"25"}>
+                      <rect width={"50"} height={"25"} fill={'#fee003'}/>
+                    </svg>
+                    <svg width={"50"} height={"25"}>
+                      <rect width={"50"} height={"25"} fill={'#fee003'}/>
+                    </svg>
+                  </div>
                   <h3>{service.title}</h3>
                   <p>{service.description}</p>
                 </div>)}

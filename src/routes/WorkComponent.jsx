@@ -7,7 +7,6 @@ function WorkComponent({workCards}) {
       {'year':`2014`, 'title': `Trantow-Osinski - Extend Enterprise E-Services`}];
     return(
       <div className='workComponent'>
-        <br /><br /><br />
         <section>
             <h2>Featured work</h2>
             <FeaturedWork workCards={workCards}/>

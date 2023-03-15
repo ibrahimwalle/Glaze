@@ -5,6 +5,8 @@ import { ReactSVG } from 'react-svg';
 // Routes
 import HomeComponent from './routes/HomeComponent';
 import WorkComponent from './routes/WorkComponent';
+import AboutComponent from './routes/AboutComponent';
+import ServicesComponent from './routes/ServicesComponent';
 // Components
 // SVGs
 import Logo from './assets/Logo.svg';
@@ -117,8 +119,8 @@ function App() {
         <Routes>
           <Route path='/home' element={<HomeComponent workCards={workCards} slideShow={slideShow} setActiveLink={setActiveLink}/>}/>
           <Route path='/work' element={<WorkComponent workCards={workCards}/>}/>
-          <Route path='/services' element={null}/>
-          <Route path='/about' element={null}/>
+          <Route path='/services' element={<ServicesComponent />}/>
+          <Route path='/about' element={<AboutComponent slideShow={slideShow} offices={offices}/>}/>
         </Routes>
         <footer>
             <div className='callToAct'>
@@ -139,9 +141,8 @@ function App() {
                 <p>Facebook</p>
               </div>
             </div>
-            <div className='flexJustBet'>
-              <p>Have a nice day 😎</p>
-              <p>Copyrights reserved©</p>
+            <div>
+              <p className='closingNote'>Have a nice day 🤠</p>
             </div>
           </footer>
       </div>
