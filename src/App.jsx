@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Link, Navigate } from 'react-router-dom';
 import { ReactSVG } from 'react-svg';
 
 // Routes
@@ -15,7 +15,7 @@ import closeMenu from './assets/menu 3.svg';
 import SuBank from './assets/images/work/Subank.svg';
 import SimpleInvest from './assets/images/work/simple invest.svg';
 import Movein from './assets/images/work/move.svg';
-import AP from './assets/images/work/A&P.svg';
+import AP from './assets/images/work/A&P.png';
 
 
 import './App.css';
@@ -40,12 +40,12 @@ function App() {
   const slideShow = ['https://picsum.photos/1080/1220','https://picsum.photos/1080/1280','https://picsum.photos/1080/1080','https://picsum.photos/1080/1000','https://picsum.photos/1080/500','https://picsum.photos/720/980','https://picsum.photos/1080/1300',];
   const [currentMenu, setCurrentMenu] = useState(openMenu);
   const [activeLink, setActiveLink] = useState('home');
-  const menu = useRef(null);
+  const menuBtnSvg = useRef(null);
   const menuBtn = useRef(null);
   const dot = useRef(null);
 
   const toggleNav = () => {
-    menu.current.classList.toggle('opened');
+    // menu.current.classList.toggle('opened');
     currentMenu == openMenu? setCurrentMenu(closeMenu) : setCurrentMenu(openMenu);
     animateDotDefault();
   }
@@ -90,6 +90,7 @@ function App() {
   const navigate = (event) =>{
     const path = event.target.dataset.path;
     setActiveLink(path);
+    menuBtn.current.click();
     // animateDotDefault();
     toggleNav();
   }
@@ -101,6 +102,21 @@ function App() {
           <ReactSVG className='logo' src={Logo} alt="Logo" />
         </Link>
         <div className="nav">
+          <input type="checkbox" id="active" />
+          <label for="active" class="menu-btn" ref={menuBtn}><ReactSVG className='menuBtnSvg' ref={menuBtnSvg} src={currentMenu} onClick={toggleNav}/></label>
+          <div class="navWrapper">
+            <div className="dotContainer">
+              <div className='dot' ref={dot}></div>
+            </div>
+            <ul className="navLinks">
+              <Link to={"/home"} data-path={'home'} onMouseEnter={animateDot} onMouseLeave={animateDotDefault} onClick={navigate}>Home</Link>
+              <Link to={"/work"}  data-path={'work'} onMouseEnter={animateDot} onMouseLeave={animateDotDefault} onClick={navigate}>Work</Link>
+              <Link to={"/services"} data-path={'services'} onMouseEnter={animateDot} onMouseLeave={animateDotDefault} onClick={navigate}>Services</Link>
+              <Link to={"/about"} data-path={'about'} onMouseEnter={animateDot} onMouseLeave={animateDotDefault} onClick={navigate}>About</Link>
+            </ul>
+          </div>
+        </div>
+        {/* <div className="nav">
           <ReactSVG className='menuBtn' ref={menuBtn} src={currentMenu} onClick={toggleNav}/>
           <div className='menu' ref={menu}>
             <div className="linksContainer">
@@ -115,12 +131,13 @@ function App() {
               </ul>
             </div>
           </div>
-        </div>
+        </div> */}
         <Routes>
           <Route path='/home' element={<HomeComponent workCards={workCards} slideShow={slideShow} setActiveLink={setActiveLink}/>}/>
           <Route path='/work' element={<WorkComponent workCards={workCards}/>}/>
-          <Route path='/services' element={<ServicesComponent />}/>
+          <Route path='/services' element={<ServicesComponent workCards={workCards}/>}/>
           <Route path='/about' element={<AboutComponent slideShow={slideShow} offices={offices}/>}/>
+          <Route path="*" element={<Navigate to="/home"/>}/>
         </Routes>
         <footer>
             <div className='callToAct'>

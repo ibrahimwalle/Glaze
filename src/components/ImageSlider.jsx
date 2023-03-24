@@ -14,7 +14,7 @@ function ImageSlider({slideShow}){
           </div>
         </div>
         {/* image slider position is absolute, so it sits the space of this empty section. (each section has a min height of 50vh) */}
-        <section></section>
+        {/* <section></section> */}
       </>
 )}
 

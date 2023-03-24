@@ -1,5 +1,6 @@
 import { ReactSVG } from 'react-svg';
 import invaders from '../assets/images/invaders.svg';
+import gear from '../assets/images/gear.svg';
 import FeaturedWork from '../components/FeaturedWork';
 import ImageSlider from '../components/ImageSlider';
 
@@ -18,7 +19,7 @@ function AboutComponent({slideShow, offices}){
                     <div className="btnContainer"><button>Get in touch</button></div>
                 </div>
                 <div>
-                    <img className='aboutSvg' src={invaders}/>
+                    <img className='aboutSvg' src={gear}/>
                 </div>
             </section>
             <section>

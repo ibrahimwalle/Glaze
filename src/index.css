@@ -1,8 +1,10 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap);
 :root {
   font-family: Poppins ,Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
+  box-sizing: border-box;
   color-scheme: light dark;
   color: rgba(0, 0, 0, 1);
   background-color: #fff;
@@ -15,7 +17,9 @@
 }
 html,body{
   margin: 0;
+  scroll-behavior: smooth;
 }
 body{
+  height: 100svh;
   overflow-x: clip;
 }

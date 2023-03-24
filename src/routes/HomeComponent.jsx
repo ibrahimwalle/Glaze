@@ -5,19 +5,28 @@ import FeaturedWork from '../components/FeaturedWork';
 import ImageSlider from '../components/ImageSlider';
 // SVGs
 import Polygon from '../assets/Polygon.svg';
+// Animations
+import Artboard from '../assets/animations/Artboard.mp4';
+import design from '../assets/animations/design.mp4';
+import engineering from '../assets/animations/engineering.mp4';
 
 function HomeComponent({workCards, slideShow, setActiveLink}) {
 
     const homeTitle = 'We use design & code to grow & amplify your brand’s digital experience.';
     const services = [
       {'title': 'Strategy', 
-      'description': `We develop strategies to ensure your business grows from a solid foundation.`},
+      'description': `We develop strategies to ensure your business grows from a solid foundation.`,
+      'ani': Artboard},
       {'title': 'Design', 
-      'description': `We craft thoughtful experiences so your digital communications are more engaging.`},
+      'description': `We craft thoughtful experiences so your digital communications are more engaging.`,
+      'ani': design},
       {'title': 'Engineering', 
-      'description': `We develop bespoke solutions to ensure the best digital output and performance.`},
+      'description': `We develop bespoke solutions to ensure the best digital output and performance.`,
+      'ani': engineering},
       {'title': 'Enhancement', 
-      'description': `We improve and enhance your digital touchpoints to optimise effectiveness over time.`}];
+      'description': `We improve and enhance your digital touchpoints to optimise effectiveness over time.`,
+      'ani': engineering}];
+    
     const [scrollTop, setScrollTop] = useState(0);
   
     useEffect(() => {
@@ -29,7 +38,7 @@ function HomeComponent({workCards, slideShow, setActiveLink}) {
       return () => {
         window.removeEventListener('scroll', handleScroll);
       };
-});
+    });
   
     return (
       <div className='homeComponent'>
@@ -54,13 +63,16 @@ function HomeComponent({workCards, slideShow, setActiveLink}) {
               <h2>How we help businesses grow.</h2>
               <div className='cardContainer'>
                 {services.map((service,i) => <div key={i} className='card'>
-                  <div className='svgContainer'>
-                    <svg width={"50"} height={"25"}>
+                  <div className=''>{/*svgContainer*/}
+                    {/* <svg width={"50"} height={"25"}>
                       <rect width={"50"} height={"25"} fill={'#fee003'}/>
                     </svg>
                     <svg width={"50"} height={"25"}>
                       <rect width={"50"} height={"25"} fill={'#fee003'}/>
-                    </svg>
+                    </svg> */}
+                    <video className='servicesAnimations' alt="Services animations" loop autoPlay onMouseEnter={(e)=>{e.target.play()}}>
+                      <source src={service.ani} type="video/mp4"/>
+                    </video>
                   </div>
                   <h3>{service.title}</h3>
                   <p>{service.description}</p>
