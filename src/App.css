@@ -9,6 +9,11 @@
   --accent2: #fee003;
   --grey: #9D9D9D;
 }
+@media only screen and (max-width: 550px) {
+  #root {
+    font-size: medium;
+  }
+}
 
 /* generalized styling */
 h2{
@@ -302,7 +307,7 @@ input[type="checkbox"]{
 .svgContainer>:last-child{
   animation: slideSvg 1s ease-in-out infinite alternate-reverse;
 } */
-.serviceAnimations{
+.servicesAnimations{
   margin: 0;
   width: 100px;
 }
@@ -388,12 +393,13 @@ input[type="checkbox"]{
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .aboutHead > *{
   margin: auto;
 }
 .aboutSvg{
+  min-width: 300px;
   max-width: 40vw;
   margin: 0 auto;
 }

@@ -9,6 +9,7 @@ import Polygon from '../assets/Polygon.svg';
 import Artboard from '../assets/animations/Artboard.mp4';
 import design from '../assets/animations/design.mp4';
 import engineering from '../assets/animations/engineering.mp4';
+import enhance from '../assets/animations/enhance.mp4';
 
 function HomeComponent({workCards, slideShow, setActiveLink}) {
 
@@ -25,7 +26,7 @@ function HomeComponent({workCards, slideShow, setActiveLink}) {
       'ani': engineering},
       {'title': 'Enhancement', 
       'description': `We improve and enhance your digital touchpoints to optimise effectiveness over time.`,
-      'ani': engineering}];
+      'ani': enhance}];
     
     const [scrollTop, setScrollTop] = useState(0);
   
@@ -63,13 +64,7 @@ function HomeComponent({workCards, slideShow, setActiveLink}) {
               <h2>How we help businesses grow.</h2>
               <div className='cardContainer'>
                 {services.map((service,i) => <div key={i} className='card'>
-                  <div className=''>{/*svgContainer*/}
-                    {/* <svg width={"50"} height={"25"}>
-                      <rect width={"50"} height={"25"} fill={'#fee003'}/>
-                    </svg>
-                    <svg width={"50"} height={"25"}>
-                      <rect width={"50"} height={"25"} fill={'#fee003'}/>
-                    </svg> */}
+                  <div className=''>
                     <video className='servicesAnimations' alt="Services animations" loop autoPlay onMouseEnter={(e)=>{e.target.play()}}>
                       <source src={service.ani} type="video/mp4"/>
                     </video>
