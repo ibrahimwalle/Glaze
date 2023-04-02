@@ -1,8 +1,5 @@
 <svg id="move" xmlns="http://www.w3.org/2000/svg" width="398" height="503" viewBox="0 0 398 503">
-  <g id="Rectangle_6" data-name="Rectangle 6" fill="#fff" stroke="#707070" stroke-width="1">
-    <rect width="398" height="503" rx="30" stroke="none"/>
-    <rect x="0.5" y="0.5" width="397" height="502" rx="29.5" fill="none"/>
-  </g>
+  <rect id="Rectangle_6" data-name="Rectangle 6" width="398" height="503" rx="30" fill="#fff"/>
   <rect id="Rectangle_56" data-name="Rectangle 56" width="398" height="503" rx="30" fill="#ececec" opacity="0"/>
   <g id="Move-in_logo" data-name="Move-in logo" transform="translate(-960 -1898.063)">
     <path id="Path_9" data-name="Path 9" d="M-21362-18366.281s.029-5.541,0-46.418-62.383-40.279-62.383,0v46.418" transform="translate(22583.383 20508.992)" fill="none" stroke="#0096ff" stroke-width="29" opacity="0.4"/>

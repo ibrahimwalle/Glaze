@@ -1,8 +1,5 @@
 <svg id="simple_Invest" data-name="simple Invest" xmlns="http://www.w3.org/2000/svg" width="398" height="503" viewBox="0 0 398 503">
-  <g id="Rectangle_5" data-name="Rectangle 5" fill="#fff" stroke="#707070" stroke-width="1">
-    <rect width="398" height="503" rx="30" stroke="none"/>
-    <rect x="0.5" y="0.5" width="397" height="502" rx="29.5" fill="none"/>
-  </g>
+  <rect id="Rectangle_5" data-name="Rectangle 5" width="398" height="503" rx="30" fill="#fff"/>
   <rect id="Rectangle_57" data-name="Rectangle 57" width="398" height="503" rx="30" fill="#ececec" opacity="0"/>
   <g id="_3" data-name="3" transform="translate(21778.896 19085.975)">
     <path id="Rectangle_53" data-name="Rectangle 53" d="M0,0H10.465a5,5,0,0,1,5,5V37.375a0,0,0,0,1,0,0H5a5,5,0,0,1-5-5V0A0,0,0,0,1,0,0Z" transform="translate(-21712.76 -18868.057) rotate(30)" fill="#3fb3dc"/>

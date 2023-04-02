@@ -15,7 +15,7 @@ import closeMenu from './assets/menu 3.svg';
 import SuBank from './assets/images/work/Subank.svg';
 import SimpleInvest from './assets/images/work/simple invest.svg';
 import Movein from './assets/images/work/move.svg';
-import AP from './assets/images/work/A&P.png';
+import AP from './assets/images/work/A&P.svg';
 
 
 import './App.css';
@@ -105,10 +105,10 @@ function App() {
           <input type="checkbox" id="active" />
           <label for="active" class="menu-btn" ref={menuBtn}><ReactSVG className='menuBtnSvg' ref={menuBtnSvg} src={currentMenu} onClick={toggleNav}/></label>
           <div class="navWrapper">
-            <div className="dotContainer">
-              <div className='dot' ref={dot}></div>
-            </div>
             <ul className="navLinks">
+              <div className="dotContainer" ref={dot}>
+                <div className='dot'></div>
+              </div>
               <Link to={"/home"} data-path={'home'} onMouseEnter={animateDot} onMouseLeave={animateDotDefault} onClick={navigate}>Home</Link>
               <Link to={"/work"}  data-path={'work'} onMouseEnter={animateDot} onMouseLeave={animateDotDefault} onClick={navigate}>Work</Link>
               <Link to={"/services"} data-path={'services'} onMouseEnter={animateDot} onMouseLeave={animateDotDefault} onClick={navigate}>Services</Link>

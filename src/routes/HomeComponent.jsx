@@ -65,7 +65,7 @@ function HomeComponent({workCards, slideShow, setActiveLink}) {
               <div className='cardContainer'>
                 {services.map((service,i) => <div key={i} className='card'>
                   <div className=''>
-                    <video className='servicesAnimations' alt="Services animations" loop autoPlay onMouseEnter={(e)=>{e.target.play()}}>
+                    <video className='servicesAnimations' alt="Services animations" loop autoPlay muted>
                       <source src={service.ani} type="video/mp4"/>
                     </video>
                   </div>

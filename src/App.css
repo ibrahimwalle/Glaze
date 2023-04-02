@@ -3,7 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  font-size: large;
+  /* font-size: large; */
   text-align: left;
   --accent1: #7F2CDB;
   --accent2: #fee003;
@@ -121,8 +121,9 @@ button:hover{
 .menu-btn{
   position: absolute;
   z-index: 4;
-  right: 20px;
-  top: 20px;
+  /* right: 20px; */
+  right: 10%;
+  top: 45px;
   height: 50px;
   width: 50px;
   border-radius: 50%;
@@ -167,13 +168,13 @@ input[type="checkbox"]{
   opacity: 0;
 }
 .dotContainer{
-  position: fixed;
+  position: absolute;
+  transition: all 200ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .dotContainer> .dot{
   background-color: white!important;
-  position: absolute;
-  top: 10%;
-  transition: all 200ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  /* position: absolute; */
+  /* top: 10%; */
 }
 .navLinks{
   display: grid;
@@ -268,13 +269,14 @@ input[type="checkbox"]{
 
 /* Bar grid animation */
 .wrapper{
-  max-width: calc(1664px + 10%);
-  overflow: hidden;
+  width: 80%;
+  /* max-width: calc(1664px + 10%); */
+  /* overflow: hidden; */
   width: 100%;
   height: 50vh;
   display: grid;
   grid-template-rows: 33% 33% 33%;
-  /* gap: 2rem; */
+  gap: 2rem;
 }
 .animations{
   /* width: 100%; */
@@ -346,9 +348,14 @@ input[type="checkbox"]{
 }
 .jumpTo > span > a{
   margin-right: 1rem;
+  color: var(--grey);
   font-weight: 200;
 }
 
+
+.stratContainer {
+  margin-bottom: 3rem;
+}
 .stratGrid{
   display: grid;
   grid-template-rows: fit-content fit-content;
@@ -380,7 +387,7 @@ input[type="checkbox"]{
   font-size: 20rem;
   margin: 0;
   font-weight: 800;
-  opacity: 0.5;
+  opacity: 0.3;
 }
 @media only screen and (max-width: 550px) {
   .stepTitle > p{

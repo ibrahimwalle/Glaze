@@ -31,7 +31,7 @@ function ServicesComponent({workCards}){
                     <img className='aboutSvg' src={maze} />
                 </div>
             </section>
-            <section>
+            <section className='stratContainer'>
                 <div id='strategy' className="stratGrid">
                     <div className="stratSteps">
                         <div className="step stepTitle">            
@@ -53,7 +53,7 @@ function ServicesComponent({workCards}){
                     </div>
                 </div>
             </section>
-            <section>
+            <section className='stratContainer'>
                 <div id='design' className="stratGrid">
                         <div className="stratSteps">
                             <div className="step stepTitle">            
@@ -75,7 +75,7 @@ function ServicesComponent({workCards}){
                         </div>
                     </div>
             </section>
-            <section>
+            <section className='stratContainer'>
                 <div id='Technology' className="stratGrid">
                         <div className="stratSteps">
                             <div className="step stepTitle">            
