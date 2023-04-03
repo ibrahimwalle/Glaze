@@ -9,11 +9,6 @@
   --accent2: #fee003;
   --grey: #9D9D9D;
 }
-@media only screen and (max-width: 550px) {
-  #root {
-    font-size: medium;
-  }
-}
 
 /* generalized styling */
 h2{
@@ -249,7 +244,11 @@ input[type="checkbox"]{
 }
 
 /* connect grid animation */
-.container{
+
+.connectAnimation{
+  margin-top: 7rem;
+}
+/* .container{
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 2rem;
@@ -265,7 +264,7 @@ input[type="checkbox"]{
   height: 1rem;
   border-radius: 50px;
   margin: auto;
-}
+} */
 
 /* Bar grid animation */
 .wrapper{
@@ -389,12 +388,7 @@ input[type="checkbox"]{
   font-weight: 800;
   opacity: 0.3;
 }
-@media only screen and (max-width: 550px) {
-  .stepTitle > p{
-    display: none;
-  }
 
-}
 /*About Component  */
 .aboutHead{
   display: grid;
@@ -493,65 +487,14 @@ input[type="checkbox"]{
   } 
 }
 
-/* 
-@media only screen and (max-device-width : 1024px) {
-  .fixed {
-      position:fixed;
-      top:0;
-      left: 0;
+@media only screen and (max-width: 550px) {
+  #root {
+    font-size: medium;
   }
-} */
-
-
-
-
-
-
-/* nav */
-.nav{
-  /* z-index: 3; */
-  /* position: fixed; */
-  /* top: 25px; */
-  /* left: 90%; */
-  /* right: 10% ; */
-  /* height: fit-content; */
-  /* width: auto; */
-  /* padding: 1rem; */
+  .stepTitle > p{
+    display: none;
+  }
+  .barAnimation{
+    display: none;
+  }
 }
-
-/* .menu{
-  position: fixed;
-  top: 0;
-  right: 0%;
-  height: 0;
-  width: 0;
-  background-color: none;
-  transition: all 1s ease-in-out;
-  border-top-left-radius: 20%;
-  border-bottom-right-radius: 20%;
-  border-bottom-left-radius: 100%;
-}
-.menu.opened{
-  height: 100svh;
-  width: 100%;
-  border-radius: 0;
-  background-color: var(--accent1);
-} */
-/* .opened > .linksContainer{
-  position: fixed;
-  top: 20%;
-  right: 10%;
-}
-.linksContainer{
-  top: inherit;
-  right: inherit;
-  display: grid;
-  opacity: 0;
-  transition: all 1s ease-out;
-}
-.menu.opened > .linksContainer{
-  opacity: 1;
-}
-.linksContainer> *{
-  height: 50vh;
-} */

@@ -54,8 +54,8 @@ function HomeComponent({workCards, slideShow, setActiveLink}) {
                 <Link to={'/services'} onClick={()=>setActiveLink('services')}><button className='oddBtn'>What we do</button></Link>
               </div>
             </section>
-            <section>
-              <img src={Create_grid} alt="" />
+            <section className='connectAnimation'>
+              <img src={Create_grid} alt="Grid animation saying Create" />
               {/* <ConnectAnimation /> */}
             </section>
             <section className='featuredWork'>
@@ -79,7 +79,7 @@ function HomeComponent({workCards, slideShow, setActiveLink}) {
               <Link to={'/services'} onClick={()=>setActiveLink('services')}><button>Our services</button></Link>
               </div>
             </section>
-            <section style={{'--angle': scrollTop + 'deg'}}>
+            <section className='barAnimation' style={{'--angle': scrollTop + 'deg'}}>
               <GridBarAnimation />
             </section>
             <section className=''>
