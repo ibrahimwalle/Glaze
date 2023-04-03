@@ -6,6 +6,7 @@ import ImageSlider from '../components/ImageSlider';
 // SVGs
 import Polygon from '../assets/Polygon.svg';
 // Animations
+import Create_grid from '../assets/animations/Create grid.svg';
 import Artboard from '../assets/animations/Artboard.mp4';
 import design from '../assets/animations/design.mp4';
 import engineering from '../assets/animations/engineering.mp4';
@@ -53,9 +54,10 @@ function HomeComponent({workCards, slideShow, setActiveLink}) {
                 <Link to={'/services'} onClick={()=>setActiveLink('services')}><button className='oddBtn'>What we do</button></Link>
               </div>
             </section>
-            {/* <section>
-              <ConnectAnimation />
-            </section> */}
+            <section>
+              <img src={Create_grid} alt="" />
+              {/* <ConnectAnimation /> */}
+            </section>
             <section className='featuredWork'>
               <h2>Featured case studies</h2>
               <FeaturedWork workCards={workCards}/>

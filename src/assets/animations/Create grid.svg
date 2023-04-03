@@ -1,0 +1,483 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1644" height="767" viewBox="0 0 1644 767">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="1642" height="767" fill="none"/>
+    </clipPath>
+  </defs>
+  <style>
+    .Rectangle{
+      animation: grow 4s ease-in-out;
+    }
+    @keyframes grow {
+      from{
+        width: 0;
+      }
+      to{
+      }
+    }
+  </style>
+  <g id="Create_grid" data-name="Create grid" transform="translate(-138 -892)">
+    <g id="Repeat_Grid_1" data-name="Repeat Grid 1" transform="translate(140 892)" clip-path="url(#clip-path)">
+      <g transform="translate(-142 -861)">
+        <circle id="Ellipse_1" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(-41 -861)">
+        <circle id="Ellipse_1-2" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(60 -861)">
+        <circle id="Ellipse_1-3" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(161 -861)">
+        <circle id="Ellipse_1-4" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(262 -861)">
+        <circle id="Ellipse_1-5" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(363 -861)">
+        <circle id="Ellipse_1-6" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(464 -861)">
+        <circle id="Ellipse_1-7" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(565 -861)">
+        <circle id="Ellipse_1-8" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(666 -861)">
+        <circle id="Ellipse_1-9" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(767 -861)">
+        <circle id="Ellipse_1-10" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(868 -861)">
+        <circle id="Ellipse_1-11" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(969 -861)">
+        <circle id="Ellipse_1-12" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(1070 -861)">
+        <circle id="Ellipse_1-13" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(1171 -861)">
+        <circle id="Ellipse_1-14" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(1272 -861)">
+        <circle id="Ellipse_1-15" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(1373 -861)">
+        <circle id="Ellipse_1-16" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(1474 -861)">
+        <circle id="Ellipse_1-17" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(-142 -758)">
+        <circle id="Ellipse_1-18" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(-41 -758)">
+        <circle id="Ellipse_1-19" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(60 -758)">
+        <circle id="Ellipse_1-20" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(161 -758)">
+        <circle id="Ellipse_1-21" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(262 -758)">
+        <circle id="Ellipse_1-22" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(363 -758)">
+        <circle id="Ellipse_1-23" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(464 -758)">
+        <circle id="Ellipse_1-24" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(565 -758)">
+        <circle id="Ellipse_1-25" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(666 -758)">
+        <circle id="Ellipse_1-26" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(767 -758)">
+        <circle id="Ellipse_1-27" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(868 -758)">
+        <circle id="Ellipse_1-28" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(969 -758)">
+        <circle id="Ellipse_1-29" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(1070 -758)">
+        <circle id="Ellipse_1-30" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(1171 -758)">
+        <circle id="Ellipse_1-31" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(1272 -758)">
+        <circle id="Ellipse_1-32" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(1373 -758)">
+        <circle id="Ellipse_1-33" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(1474 -758)">
+        <circle id="Ellipse_1-34" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(-142 -655)">
+        <circle id="Ellipse_1-35" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(-41 -655)">
+        <circle id="Ellipse_1-36" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(60 -655)">
+        <circle id="Ellipse_1-37" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(161 -655)">
+        <circle id="Ellipse_1-38" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(262 -655)">
+        <circle id="Ellipse_1-39" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(363 -655)">
+        <circle id="Ellipse_1-40" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(464 -655)">
+        <circle id="Ellipse_1-41" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(565 -655)">
+        <circle id="Ellipse_1-42" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(666 -655)">
+        <circle id="Ellipse_1-43" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(767 -655)">
+        <circle id="Ellipse_1-44" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(868 -655)">
+        <circle id="Ellipse_1-45" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(969 -655)">
+        <circle id="Ellipse_1-46" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(1070 -655)">
+        <circle id="Ellipse_1-47" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(1171 -655)">
+        <circle id="Ellipse_1-48" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(1272 -655)">
+        <circle id="Ellipse_1-49" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(1373 -655)">
+        <circle id="Ellipse_1-50" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(1474 -655)">
+        <circle id="Ellipse_1-51" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(-142 -552)">
+        <circle id="Ellipse_1-52" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(-41 -552)">
+        <circle id="Ellipse_1-53" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(60 -552)">
+        <circle id="Ellipse_1-54" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(161 -552)">
+        <circle id="Ellipse_1-55" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(262 -552)">
+        <circle id="Ellipse_1-56" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(363 -552)">
+        <circle id="Ellipse_1-57" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(464 -552)">
+        <circle id="Ellipse_1-58" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(565 -552)">
+        <circle id="Ellipse_1-59" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(666 -552)">
+        <circle id="Ellipse_1-60" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(767 -552)">
+        <circle id="Ellipse_1-61" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(868 -552)">
+        <circle id="Ellipse_1-62" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(969 -552)">
+        <circle id="Ellipse_1-63" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(1070 -552)">
+        <circle id="Ellipse_1-64" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(1171 -552)">
+        <circle id="Ellipse_1-65" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(1272 -552)">
+        <circle id="Ellipse_1-66" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(1373 -552)">
+        <circle id="Ellipse_1-67" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(1474 -552)">
+        <circle id="Ellipse_1-68" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(-142 -449)">
+        <circle id="Ellipse_1-69" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(-41 -449)">
+        <circle id="Ellipse_1-70" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(60 -449)">
+        <circle id="Ellipse_1-71" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(161 -449)">
+        <circle id="Ellipse_1-72" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(262 -449)">
+        <circle id="Ellipse_1-73" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(363 -449)">
+        <circle id="Ellipse_1-74" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(464 -449)">
+        <circle id="Ellipse_1-75" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(565 -449)">
+        <circle id="Ellipse_1-76" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(666 -449)">
+        <circle id="Ellipse_1-77" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(767 -449)">
+        <circle id="Ellipse_1-78" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(868 -449)">
+        <circle id="Ellipse_1-79" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(969 -449)">
+        <circle id="Ellipse_1-80" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(1070 -449)">
+        <circle id="Ellipse_1-81" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(1171 -449)">
+        <circle id="Ellipse_1-82" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(1272 -449)">
+        <circle id="Ellipse_1-83" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(1373 -449)">
+        <circle id="Ellipse_1-84" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(1474 -449)">
+        <circle id="Ellipse_1-85" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(-142 -346)">
+        <circle id="Ellipse_1-86" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(-41 -346)">
+        <circle id="Ellipse_1-87" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(60 -346)">
+        <circle id="Ellipse_1-88" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(161 -346)">
+        <circle id="Ellipse_1-89" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(262 -346)">
+        <circle id="Ellipse_1-90" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(363 -346)">
+        <circle id="Ellipse_1-91" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(464 -346)">
+        <circle id="Ellipse_1-92" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(565 -346)">
+        <circle id="Ellipse_1-93" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(666 -346)">
+        <circle id="Ellipse_1-94" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(767 -346)">
+        <circle id="Ellipse_1-95" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(868 -346)">
+        <circle id="Ellipse_1-96" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(969 -346)">
+        <circle id="Ellipse_1-97" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(1070 -346)">
+        <circle id="Ellipse_1-98" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(1171 -346)">
+        <circle id="Ellipse_1-99" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(1272 -346)">
+        <circle id="Ellipse_1-100" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(1373 -346)">
+        <circle id="Ellipse_1-101" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(1474 -346)">
+        <circle id="Ellipse_1-102" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(-142 -243)">
+        <circle id="Ellipse_1-103" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(-41 -243)">
+        <circle id="Ellipse_1-104" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(60 -243)">
+        <circle id="Ellipse_1-105" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(161 -243)">
+        <circle id="Ellipse_1-106" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(262 -243)">
+        <circle id="Ellipse_1-107" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(363 -243)">
+        <circle id="Ellipse_1-108" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(464 -243)">
+        <circle id="Ellipse_1-109" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(565 -243)">
+        <circle id="Ellipse_1-110" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(666 -243)">
+        <circle id="Ellipse_1-111" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(767 -243)">
+        <circle id="Ellipse_1-112" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(868 -243)">
+        <circle id="Ellipse_1-113" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(969 -243)">
+        <circle id="Ellipse_1-114" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(1070 -243)">
+        <circle id="Ellipse_1-115" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(1171 -243)">
+        <circle id="Ellipse_1-116" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(1272 -243)">
+        <circle id="Ellipse_1-117" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(1373 -243)">
+        <circle id="Ellipse_1-118" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(1474 -243)">
+        <circle id="Ellipse_1-119" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(-142 -140)">
+        <circle id="Ellipse_1-120" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(-41 -140)">
+        <circle id="Ellipse_1-121" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(60 -140)">
+        <circle id="Ellipse_1-122" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(161 -140)">
+        <circle id="Ellipse_1-123" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(262 -140)">
+        <circle id="Ellipse_1-124" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(363 -140)">
+        <circle id="Ellipse_1-125" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(464 -140)">
+        <circle id="Ellipse_1-126" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(565 -140)">
+        <circle id="Ellipse_1-127" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(666 -140)">
+        <circle id="Ellipse_1-128" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(767 -140)">
+        <circle id="Ellipse_1-129" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(868 -140)">
+        <circle id="Ellipse_1-130" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(969 -140)">
+        <circle id="Ellipse_1-131" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(1070 -140)">
+        <circle id="Ellipse_1-132" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(1171 -140)">
+        <circle id="Ellipse_1-133" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(1272 -140)">
+        <circle id="Ellipse_1-134" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(1373 -140)">
+        <circle id="Ellipse_1-135" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+      <g transform="translate(1474 -140)">
+        <circle id="Ellipse_1-136" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(142 861)" fill="#ebebeb"/>
+      </g>
+    </g>
+    <rect class="Rectangle" id="Rectangle_14" data-name="Rectangle 14" width="230" height="28" rx="14" transform="translate(138 1197)" fill="#fee003"/>
+    <rect class="Rectangle" id="Rectangle_33" data-name="Rectangle 33" width="135" height="28" rx="14" transform="translate(440 1197)" fill="#7f2cdb"/>
+    <rect class="Rectangle" id="Rectangle_36" data-name="Rectangle 36" width="232" height="28" rx="14" transform="translate(641 1197)" fill="#fee003"/>
+    <rect class="Rectangle" id="Rectangle_48" data-name="Rectangle 48" width="232" height="28" rx="14" transform="translate(1550 1197)" fill="#7f2cdb"/>
+    <rect class="Rectangle" id="Rectangle_42" data-name="Rectangle 42" width="128" height="28" rx="14" transform="translate(949 1197)" fill="#7f2cdb"/>
+    <rect class="Rectangle" id="Rectangle_38" data-name="Rectangle 38" width="232" height="28" rx="14" transform="translate(641 1509)" fill="#fee003"/>
+    <rect class="Rectangle" id="Rectangle_50" data-name="Rectangle 50" width="232" height="28" rx="14" transform="translate(1550 1509)" fill="#7f2cdb"/>
+    <rect class="Rectangle" id="Rectangle_41" data-name="Rectangle 41" width="232" height="28" rx="14" transform="translate(948 1509)" fill="#7f2cdb"/>
+    <rect class="Rectangle" id="Rectangle_44" data-name="Rectangle 44" width="233" height="28" rx="14" transform="translate(1251 1509)" fill="#fee003"/>
+    <rect class="Rectangle" id="Rectangle_45" data-name="Rectangle 45" width="233" height="28" rx="14" transform="translate(1251 1197)" fill="#fee003"/>
+    <rect class="Rectangle" id="Rectangle_37" data-name="Rectangle 37" width="132" height="28" rx="14" transform="translate(741 1300)" fill="#fee003"/>
+    <rect class="Rectangle" id="Rectangle_46" data-name="Rectangle 46" width="132" height="28" rx="14" transform="translate(1650 1300)" fill="#7f2cdb"/>
+    <rect class="Rectangle" id="Rectangle_31" data-name="Rectangle 31" width="230" height="28" rx="14" transform="translate(138 1509)" fill="#fee003"/>
+    <rect class="Rectangle" id="Rectangle_15" data-name="Rectangle 15" width="340" height="27" rx="13.5" transform="translate(165 1197) rotate(90)" fill="#fee003"/>
+    <rect class="Rectangle" id="Rectangle_32" data-name="Rectangle 32" width="340" height="27" rx="13.5" transform="translate(467 1197) rotate(90)" fill="#7f2cdb"/>
+    <rect class="Rectangle" id="Rectangle_34" data-name="Rectangle 34" width="340" height="27" rx="13.5" transform="translate(668 1197) rotate(90)" fill="#fee003"/>
+    <rect class="Rectangle" id="Rectangle_49" data-name="Rectangle 49" width="340" height="27" rx="13.5" transform="translate(1577 1197) rotate(90)" fill="#7f2cdb"/>
+    <rect class="Rectangle" id="Rectangle_43" data-name="Rectangle 43" width="645" height="27" rx="13.5" transform="translate(1276 892) rotate(90)" fill="#fee003"/>
+    <rect class="Rectangle" id="Rectangle_39" data-name="Rectangle 39" width="340" height="27" rx="13.5" transform="translate(975 1197) rotate(90)" fill="#7f2cdb"/>
+    <rect class="Rectangle" id="Rectangle_40" data-name="Rectangle 40" width="340" height="27" rx="13.5" transform="translate(1077 1197) rotate(90)" fill="#7f2cdb"/>
+    <rect class="Rectangle" id="Rectangle_35" data-name="Rectangle 35" width="131" height="27" rx="13.5" transform="translate(873 1197) rotate(90)" fill="#fee003"/>
+    <rect class="Rectangle" id="Rectangle_47" data-name="Rectangle 47" width="131" height="27" rx="13.5" transform="translate(1782 1197) rotate(90)" fill="#773dbd"/>
+    <rect class="Rectangle" id="Rectangle_51" data-name="Rectangle 51" width="131" height="27" rx="13.5" transform="translate(1782 1197) rotate(90)" fill="#7f2cdb"/>
+    <path id="Polygon_3" data-name="Polygon 3" d="M10.572,2.315a1,1,0,0,1,1.856,0L14.74,8.08a1,1,0,0,0,.528.544l5.633,2.46a1,1,0,0,1,0,1.833l-5.633,2.46a1,1,0,0,0-.528.544l-2.312,5.765a1,1,0,0,1-1.856,0L8.26,15.92a1,1,0,0,0-.528-.544L2.1,12.916a1,1,0,0,1,0-1.833l5.633-2.46A1,1,0,0,0,8.26,8.08Z" transform="translate(341 1199)"/>
+    <path id="Polygon_29" data-name="Polygon 29" d="M10.572,2.315a1,1,0,0,1,1.856,0L14.74,8.08a1,1,0,0,0,.528.544l5.633,2.46a1,1,0,0,1,0,1.833l-5.633,2.46a1,1,0,0,0-.528.544l-2.312,5.765a1,1,0,0,1-1.856,0L8.26,15.92a1,1,0,0,0-.528-.544L2.1,12.916a1,1,0,0,1,0-1.833l5.633-2.46A1,1,0,0,0,8.26,8.08Z" transform="translate(547 1199)"/>
+    <path id="Polygon_30" data-name="Polygon 30" d="M10.572,2.315a1,1,0,0,1,1.856,0L14.74,8.08a1,1,0,0,0,.528.544l5.633,2.46a1,1,0,0,1,0,1.833l-5.633,2.46a1,1,0,0,0-.528.544l-2.312,5.765a1,1,0,0,1-1.856,0L8.26,15.92a1,1,0,0,0-.528-.544L2.1,12.916a1,1,0,0,1,0-1.833l5.633-2.46A1,1,0,0,0,8.26,8.08Z" transform="translate(444 1199)"/>
+    <path id="Polygon_33" data-name="Polygon 33" d="M10.572,2.315a1,1,0,0,1,1.856,0L14.74,8.08a1,1,0,0,0,.528.544l5.633,2.46a1,1,0,0,1,0,1.833l-5.633,2.46a1,1,0,0,0-.528.544l-2.312,5.765a1,1,0,0,1-1.856,0L8.26,15.92a1,1,0,0,0-.528-.544L2.1,12.916a1,1,0,0,1,0-1.833l5.633-2.46A1,1,0,0,0,8.26,8.08Z" transform="translate(643 1199)"/>
+    <path id="Polygon_39" data-name="Polygon 39" d="M10.572,2.315a1,1,0,0,1,1.856,0L14.74,8.08a1,1,0,0,0,.528.544l5.633,2.46a1,1,0,0,1,0,1.833l-5.633,2.46a1,1,0,0,0-.528.544l-2.312,5.765a1,1,0,0,1-1.856,0L8.26,15.92a1,1,0,0,0-.528-.544L2.1,12.916a1,1,0,0,1,0-1.833l5.633-2.46A1,1,0,0,0,8.26,8.08Z" transform="translate(951 1199)"/>
+    <path id="Polygon_35" data-name="Polygon 35" d="M10.572,2.315a1,1,0,0,1,1.856,0L14.74,8.08a1,1,0,0,0,.528.544l5.633,2.46a1,1,0,0,1,0,1.833l-5.633,2.46a1,1,0,0,0-.528.544l-2.312,5.765a1,1,0,0,1-1.856,0L8.26,15.92a1,1,0,0,0-.528-.544L2.1,12.916a1,1,0,0,1,0-1.833l5.633-2.46A1,1,0,0,0,8.26,8.08Z" transform="translate(848 1199)"/>
+    <path id="Polygon_38" data-name="Polygon 38" d="M10.572,2.315a1,1,0,0,1,1.856,0L14.74,8.08a1,1,0,0,0,.528.544l5.633,2.46a1,1,0,0,1,0,1.833l-5.633,2.46a1,1,0,0,0-.528.544l-2.312,5.765a1,1,0,0,1-1.856,0L8.26,15.92a1,1,0,0,0-.528-.544L2.1,12.916a1,1,0,0,1,0-1.833l5.633-2.46A1,1,0,0,0,8.26,8.08Z" transform="translate(1052 1199)"/>
+    <path id="Polygon_40" data-name="Polygon 40" d="M10.572,2.315a1,1,0,0,1,1.856,0L14.74,8.08a1,1,0,0,0,.528.544l5.633,2.46a1,1,0,0,1,0,1.833l-5.633,2.46a1,1,0,0,0-.528.544l-2.312,5.765a1,1,0,0,1-1.856,0L8.26,15.92a1,1,0,0,0-.528-.544L2.1,12.916a1,1,0,0,1,0-1.833l5.633-2.46A1,1,0,0,0,8.26,8.08Z" transform="translate(1052 1511)"/>
+    <path id="Polygon_42" data-name="Polygon 42" d="M10.572,2.315a1,1,0,0,1,1.856,0L14.74,8.08a1,1,0,0,0,.528.544l5.633,2.46a1,1,0,0,1,0,1.833l-5.633,2.46a1,1,0,0,0-.528.544l-2.312,5.765a1,1,0,0,1-1.856,0L8.26,15.92a1,1,0,0,0-.528-.544L2.1,12.916a1,1,0,0,1,0-1.833l5.633-2.46A1,1,0,0,0,8.26,8.08Z" transform="translate(1152 1511)"/>
+    <path id="Polygon_43" data-name="Polygon 43" d="M10.572,2.315a1,1,0,0,1,1.856,0L14.74,8.08a1,1,0,0,0,.528.544l5.633,2.46a1,1,0,0,1,0,1.833l-5.633,2.46a1,1,0,0,0-.528.544l-2.312,5.765a1,1,0,0,1-1.856,0L8.26,15.92a1,1,0,0,0-.528-.544L2.1,12.916a1,1,0,0,1,0-1.833l5.633-2.46A1,1,0,0,0,8.26,8.08Z" transform="translate(1251 1511)"/>
+    <path id="Polygon_45" data-name="Polygon 45" d="M10.572,2.315a1,1,0,0,1,1.856,0L14.74,8.08a1,1,0,0,0,.528.544l5.633,2.46a1,1,0,0,1,0,1.833l-5.633,2.46a1,1,0,0,0-.528.544l-2.312,5.765a1,1,0,0,1-1.856,0L8.26,15.92a1,1,0,0,0-.528-.544L2.1,12.916a1,1,0,0,1,0-1.833l5.633-2.46A1,1,0,0,0,8.26,8.08Z" transform="translate(1251 1199)"/>
+    <path id="Polygon_47" data-name="Polygon 47" d="M10.572,2.315a1,1,0,0,1,1.856,0L14.74,8.08a1,1,0,0,0,.528.544l5.633,2.46a1,1,0,0,1,0,1.833l-5.633,2.46a1,1,0,0,0-.528.544l-2.312,5.765a1,1,0,0,1-1.856,0L8.26,15.92a1,1,0,0,0-.528-.544L2.1,12.916a1,1,0,0,1,0-1.833l5.633-2.46A1,1,0,0,0,8.26,8.08Z" transform="translate(1251 892)"/>
+    <path id="Polygon_46" data-name="Polygon 46" d="M10.572,2.315a1,1,0,0,1,1.856,0L14.74,8.08a1,1,0,0,0,.528.544l5.633,2.46a1,1,0,0,1,0,1.833l-5.633,2.46a1,1,0,0,0-.528.544l-2.312,5.765a1,1,0,0,1-1.856,0L8.26,15.92a1,1,0,0,0-.528-.544L2.1,12.916a1,1,0,0,1,0-1.833l5.633-2.46A1,1,0,0,0,8.26,8.08Z" transform="translate(1457 1199)"/>
+    <path id="Polygon_48" data-name="Polygon 48" d="M10.572,2.315a1,1,0,0,1,1.856,0L14.74,8.08a1,1,0,0,0,.528.544l5.633,2.46a1,1,0,0,1,0,1.833l-5.633,2.46a1,1,0,0,0-.528.544l-2.312,5.765a1,1,0,0,1-1.856,0L8.26,15.92a1,1,0,0,0-.528-.544L2.1,12.916a1,1,0,0,1,0-1.833l5.633-2.46A1,1,0,0,0,8.26,8.08Z" transform="translate(1553 1199)"/>
+    <path id="Polygon_54" data-name="Polygon 54" d="M10.572,2.315a1,1,0,0,1,1.856,0L14.74,8.08a1,1,0,0,0,.528.544l5.633,2.46a1,1,0,0,1,0,1.833l-5.633,2.46a1,1,0,0,0-.528.544l-2.312,5.765a1,1,0,0,1-1.856,0L8.26,15.92a1,1,0,0,0-.528-.544L2.1,12.916a1,1,0,0,1,0-1.833l5.633-2.46A1,1,0,0,0,8.26,8.08Z" transform="translate(1553 1511)"/>
+    <path id="Polygon_51" data-name="Polygon 51" d="M10.572,2.315a1,1,0,0,1,1.856,0L14.74,8.08a1,1,0,0,0,.528.544l5.633,2.46a1,1,0,0,1,0,1.833l-5.633,2.46a1,1,0,0,0-.528.544l-2.312,5.765a1,1,0,0,1-1.856,0L8.26,15.92a1,1,0,0,0-.528-.544L2.1,12.916a1,1,0,0,1,0-1.833l5.633-2.46A1,1,0,0,0,8.26,8.08Z" transform="translate(1755 1199)"/>
+    <path id="Polygon_55" data-name="Polygon 55" d="M10.572,2.315a1,1,0,0,1,1.856,0L14.74,8.08a1,1,0,0,0,.528.544l5.633,2.46a1,1,0,0,1,0,1.833l-5.633,2.46a1,1,0,0,0-.528.544l-2.312,5.765a1,1,0,0,1-1.856,0L8.26,15.92a1,1,0,0,0-.528-.544L2.1,12.916a1,1,0,0,1,0-1.833l5.633-2.46A1,1,0,0,0,8.26,8.08Z" transform="translate(1755 1511)"/>
+    <path id="Polygon_52" data-name="Polygon 52" d="M10.572,2.315a1,1,0,0,1,1.856,0L14.74,8.08a1,1,0,0,0,.528.544l5.633,2.46a1,1,0,0,1,0,1.833l-5.633,2.46a1,1,0,0,0-.528.544l-2.312,5.765a1,1,0,0,1-1.856,0L8.26,15.92a1,1,0,0,0-.528-.544L2.1,12.916a1,1,0,0,1,0-1.833l5.633-2.46A1,1,0,0,0,8.26,8.08Z" transform="translate(1755 1302)"/>
+    <path id="Polygon_53" data-name="Polygon 53" d="M10.572,2.315a1,1,0,0,1,1.856,0L14.74,8.08a1,1,0,0,0,.528.544l5.633,2.46a1,1,0,0,1,0,1.833l-5.633,2.46a1,1,0,0,0-.528.544l-2.312,5.765a1,1,0,0,1-1.856,0L8.26,15.92a1,1,0,0,0-.528-.544L2.1,12.916a1,1,0,0,1,0-1.833l5.633-2.46A1,1,0,0,0,8.26,8.08Z" transform="translate(1655 1302)"/>
+    <path id="Polygon_44" data-name="Polygon 44" d="M10.572,2.315a1,1,0,0,1,1.856,0L14.74,8.08a1,1,0,0,0,.528.544l5.633,2.46a1,1,0,0,1,0,1.833l-5.633,2.46a1,1,0,0,0-.528.544l-2.312,5.765a1,1,0,0,1-1.856,0L8.26,15.92a1,1,0,0,0-.528-.544L2.1,12.916a1,1,0,0,1,0-1.833l5.633-2.46A1,1,0,0,0,8.26,8.08Z" transform="translate(1457 1511)"/>
+    <path id="Polygon_41" data-name="Polygon 41" d="M10.572,2.315a1,1,0,0,1,1.856,0L14.74,8.08a1,1,0,0,0,.528.544l5.633,2.46a1,1,0,0,1,0,1.833l-5.633,2.46a1,1,0,0,0-.528.544l-2.312,5.765a1,1,0,0,1-1.856,0L8.26,15.92a1,1,0,0,0-.528-.544L2.1,12.916a1,1,0,0,1,0-1.833l5.633-2.46A1,1,0,0,0,8.26,8.08Z" transform="translate(950 1511)"/>
+    <path id="Polygon_36" data-name="Polygon 36" d="M10.572,2.315a1,1,0,0,1,1.856,0L14.74,8.08a1,1,0,0,0,.528.544l5.633,2.46a1,1,0,0,1,0,1.833l-5.633,2.46a1,1,0,0,0-.528.544l-2.312,5.765a1,1,0,0,1-1.856,0L8.26,15.92a1,1,0,0,0-.528-.544L2.1,12.916a1,1,0,0,1,0-1.833l5.633-2.46A1,1,0,0,0,8.26,8.08Z" transform="translate(848 1302)"/>
+    <path id="Polygon_37" data-name="Polygon 37" d="M10.572,2.315a1,1,0,0,1,1.856,0L14.74,8.08a1,1,0,0,0,.528.544l5.633,2.46a1,1,0,0,1,0,1.833l-5.633,2.46a1,1,0,0,0-.528.544l-2.312,5.765a1,1,0,0,1-1.856,0L8.26,15.92a1,1,0,0,0-.528-.544L2.1,12.916a1,1,0,0,1,0-1.833l5.633-2.46A1,1,0,0,0,8.26,8.08Z" transform="translate(747 1302)"/>
+    <path id="Polygon_31" data-name="Polygon 31" d="M10.572,2.315a1,1,0,0,1,1.856,0L14.74,8.08a1,1,0,0,0,.528.544l5.633,2.46a1,1,0,0,1,0,1.833l-5.633,2.46a1,1,0,0,0-.528.544l-2.312,5.765a1,1,0,0,1-1.856,0L8.26,15.92a1,1,0,0,0-.528-.544L2.1,12.916a1,1,0,0,1,0-1.833l5.633-2.46A1,1,0,0,0,8.26,8.08Z" transform="translate(444 1511)"/>
+    <path id="Polygon_32" data-name="Polygon 32" d="M10.572,2.315a1,1,0,0,1,1.856,0L14.74,8.08a1,1,0,0,0,.528.544l5.633,2.46a1,1,0,0,1,0,1.833l-5.633,2.46a1,1,0,0,0-.528.544l-2.312,5.765a1,1,0,0,1-1.856,0L8.26,15.92a1,1,0,0,0-.528-.544L2.1,12.916a1,1,0,0,1,0-1.833l5.633-2.46A1,1,0,0,0,8.26,8.08Z" transform="translate(643 1511)"/>
+    <path id="Polygon_34" data-name="Polygon 34" d="M10.572,2.315a1,1,0,0,1,1.856,0L14.74,8.08a1,1,0,0,0,.528.544l5.633,2.46a1,1,0,0,1,0,1.833l-5.633,2.46a1,1,0,0,0-.528.544l-2.312,5.765a1,1,0,0,1-1.856,0L8.26,15.92a1,1,0,0,0-.528-.544L2.1,12.916a1,1,0,0,1,0-1.833l5.633-2.46A1,1,0,0,0,8.26,8.08Z" transform="translate(848 1511)"/>
+    <path id="Polygon_4" data-name="Polygon 4" d="M9.561,2.565a1,1,0,0,1,1.878,0l2.018,5.513a1,1,0,0,0,.508.558L19.114,11.1a1,1,0,0,1,0,1.8l-5.148,2.462a1,1,0,0,0-.508.558l-2.018,5.513a1,1,0,0,1-1.878,0L7.543,15.923a1,1,0,0,0-.508-.558L1.886,12.9a1,1,0,0,1,0-1.8L7.035,8.636a1,1,0,0,0,.508-.558Z" transform="translate(142 1199)"/>
+    <path id="Polygon_27" data-name="Polygon 27" d="M9.561,2.565a1,1,0,0,1,1.878,0l2.018,5.513a1,1,0,0,0,.508.558L19.114,11.1a1,1,0,0,1,0,1.8l-5.148,2.462a1,1,0,0,0-.508.558l-2.018,5.513a1,1,0,0,1-1.878,0L7.543,15.923a1,1,0,0,0-.508-.558L1.886,12.9a1,1,0,0,1,0-1.8L7.035,8.636a1,1,0,0,0,.508-.558Z" transform="translate(142 1511)"/>
+    <path id="Polygon_28" data-name="Polygon 28" d="M9.561,2.565a1,1,0,0,1,1.878,0l2.018,5.513a1,1,0,0,0,.508.558L19.114,11.1a1,1,0,0,1,0,1.8l-5.148,2.462a1,1,0,0,0-.508.558l-2.018,5.513a1,1,0,0,1-1.878,0L7.543,15.923a1,1,0,0,0-.508-.558L1.886,12.9a1,1,0,0,1,0-1.8L7.035,8.636a1,1,0,0,0,.508-.558Z" transform="translate(344 1511)"/>
+  </g>
+</svg>

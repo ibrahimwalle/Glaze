@@ -122,8 +122,8 @@ button:hover{
   position: absolute;
   z-index: 4;
   /* right: 20px; */
-  right: 10%;
-  top: 45px;
+  top: 30px;
+  right: 5%;
   height: 50px;
   width: 50px;
   border-radius: 50%;
