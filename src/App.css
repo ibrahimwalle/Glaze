@@ -389,6 +389,10 @@ input[type="checkbox"]{
   opacity: 0.3;
 }
 
+.testomonials{
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
 /*About Component  */
 .aboutHead{
   display: grid;
@@ -403,6 +407,9 @@ input[type="checkbox"]{
   min-width: 300px;
   max-width: 40vw;
   margin: 0 auto;
+}
+.team > div{
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 .officeDetails{
   margin: auto 0;
@@ -493,6 +500,11 @@ input[type="checkbox"]{
   }
   .stepTitle > p{
     display: none;
+  }
+  .stepTitle > h1{
+    top: 0;
+    left: 0;
+    font-size: 2rem;
   }
   .barAnimation{
     display: none;

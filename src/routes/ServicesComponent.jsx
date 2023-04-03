@@ -99,7 +99,7 @@ function ServicesComponent({workCards}){
             </section>
             <section>
                 <h1>what our clients say about us</h1>
-                <div className="cardContainer">
+                <div className="cardContainer testomonials">
                     {testomonials.map((testimonial,i)=>
                         <div key={i} className='card'>
                             <h3 className='fontPurple'>{testimonial.name}</h3>

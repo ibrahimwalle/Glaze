@@ -22,9 +22,9 @@ function AboutComponent({slideShow, offices}){
                     <img className='aboutSvg' src={gear}/>
                 </div>
             </section>
-            <section>
+            <section className='team'>
                 <h2>Our Team</h2>
-                <FeaturedWork className='team' workCards={team}/>
+                <FeaturedWork workCards={team}/>
             </section>
             <section>
                 <h2>Great work environment</h2>
