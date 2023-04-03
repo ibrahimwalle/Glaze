@@ -168,6 +168,9 @@ input[type="checkbox"]{
 }
 .dotContainer> .dot{
   background-color: white!important;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
   /* position: absolute; */
   /* top: 10%; */
 }
