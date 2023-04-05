@@ -5,18 +5,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [
-    react(),
-    vue({
-      // This is needed, or else Vite will try to find image paths (which it wont be able to find because this will be called on the web, not directly)
-      // For example <img src="/images/logo.png"> will not work without the code below
-      template: {
-          transformAssetUrls: {
-              includeAbsolute: false,
-          },
-      },
-    }),
-  ],
+  plugins: [react()],
   test:{
     globals: true,
     environment: 'jsdom',

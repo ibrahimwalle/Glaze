@@ -13,7 +13,7 @@ import Logo from './assets/Logo.svg';
 import openMenu from './assets/menu 2.svg';
 import closeMenu from './assets/menu 3.svg';
 import SuBank from './assets/images/work/Subank.svg';
-import SimpleInvest from './assets/images/work/simple invest.svg';
+import SimpleInvest from './assets/images/work/simpleinvest.svg';
 import Movein from './assets/images/work/move.svg';
 import AP from './assets/images/work/A&P.svg';
 
