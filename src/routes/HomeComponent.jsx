@@ -12,6 +12,7 @@ import design from '../assets/animations/design.mp4';
 import engineering from '../assets/animations/engineering.mp4';
 import enhance from '../assets/animations/enhance.mp4';
 
+
 function HomeComponent({workCards, slideShow, setActiveLink}) {
 
     const homeTitle = 'We use design & code to grow & amplify your brand’s digital experience.';

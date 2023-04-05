@@ -73,29 +73,6 @@ button:hover{
 .fontPurple{
   color: var(--accent1);
 }
-/* Component styling */
-
-/* card styling */
-.cardContainer{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  grid-gap: 0.5rem;
-  margin-bottom: 5rem;
-}
-.cardTitle,.cardText,.cardImg{
-  max-width: 90%;
-  margin: 1rem auto;
-}
-.cardImg{
-  display: flex;
-  cursor: pointer;
-  transition: transform 200ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  border-radius: 6%;
-}
-.cardImg:hover{
-  transform: scale(1.05,1.05);
-}
 
 /*element specific styling */
 /* Navigation */
@@ -171,8 +148,6 @@ input[type="checkbox"]{
   width: 1rem;
   height: 1rem;
   border-radius: 50%;
-  /* position: absolute; */
-  /* top: 10%; */
 }
 .navLinks{
   display: grid;
@@ -189,254 +164,11 @@ input[type="checkbox"]{
   animation: jiggle 400ms cubic-bezier(0.175, 0.885, 0.32, 1.275) alternate;
 }
 
-
-/* HomeComponent */
-/* home Section */
 .logo{
   width: 10rem;
 }
-.home{
-  text-align: center;
-}
-/* Rotating Svg */
-.polygonContainer{
-  position: absolute;
-  left: 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  min-height: 50vh;
-}
-.svg{
-  z-index: 1;
-  width: 300px;
-  animation: rotate 3s ease-in-out 3s infinite;
-}
-/* odd button style */
-.oddBtn{
-  background-color: transparent;
-  color: #000;
-  border: #000 solid 2px;
-}
-.oddBtn:hover{
-  background-color: transparent;
-  color: var(--accent1);
-  border: var(--accent1) solid 2px;
-  animation: jiggle 400ms cubic-bezier(0.175, 0.885, 0.32, 1.275) alternate;
-}
-/* Image Slider styling */
-.imageSlider{
-  overflow: hidden;
-  display: flex;
-  gap: 1rem;
-}
-.imageSlider + section{
-  height: 60vh;
-}
-.slideShowImg{
-  margin: auto 0 0 0;
-  width: 300px;
-  height: fit-content;
-  object-fit: cover;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
-.imageContainer{ 
-  display: flex;
-  gap: 1rem;
-  animation: slide 25s linear 2s infinite backwards;
-}
-
-/* connect grid animation */
-
-.connectAnimation{
-  margin-top: 7rem;
-}
-/* .container{
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  gap: 2rem;
-}
-.row{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  gap: 1rem;
-}
-.dot{
-  background-color: var(--grey);
-  width: 1rem;
-  height: 1rem;
-  border-radius: 50px;
-  margin: auto;
-} */
-
-/* Bar grid animation */
-.wrapper{
-  width: 80%;
-  /* max-width: calc(1664px + 10%); */
-  /* overflow: hidden; */
-  width: 100%;
-  height: 50vh;
-  display: grid;
-  grid-template-rows: 33% 33% 33%;
-  gap: 2rem;
-}
-.animations{
-  /* width: 100%; */
-  display: grid;
-  grid-template-columns:7% 7% 7% 7% 7% 7% 7% 7% 7% 7%;
-  gap: 2rem;
-  margin: auto;
-}
-.bar{
-  background-color: var(--grey);
-  /* min-width: 10px;  */
-  width: 5rem;
-  height: 1rem;
-  border-radius: 20px;
-  margin: auto;
-  transform: rotate(90deg);
-}
-.bar.rotate{
-  transform: rotate(var(--angle));
-}
-
-/* Services Animations */
-/* .svgContainer > *{
-  display: block;
-  margin: auto 1rem;
-}
-.svgContainer >:first-child{
-  animation: slideSvg 1s ease-in-out infinite alternate;
-}
-.svgContainer>:last-child{
-  animation: slideSvg 1s ease-in-out infinite alternate-reverse;
-} */
-.servicesAnimations{
-  margin: 0;
-  width: 100px;
-}
-
-/* Work Component */
-
-.archivedWorks{
-  display: grid;
-  grid-auto-rows: 1fr;
-}
-.archived{
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  border-top: 2px solid var(--grey);
-}
-.archived{
-  margin: auto 0;
-}
-.archived:last-child{
-  border-bottom: 2px solid var(--grey);
-}
-.year{
-  margin: auto 0;
-}
-/* Services Component */
-
-.jumpTo{
-  margin-top: 2rem;
-}
-.jumpTo > *{
-  margin: 0;
-  display: inline-block;
-}
-.jumpTo > h3{
-  margin-right: 1rem;
-}
-.jumpTo > span > a{
-  margin-right: 1rem;
-  color: var(--grey);
-  font-weight: 200;
-}
 
 
-.stratContainer {
-  margin-bottom: 3rem;
-}
-.stratGrid{
-  display: grid;
-  grid-template-rows: fit-content fit-content;
-  gap: 1rem;
-  margin-top: 4rem;
-}
-.stratSteps{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1rem;
-}
-.step{
-  border-top: 4px solid var(--grey);
-}
-.stepTitle{
-  border: none;
-}
-.stepTitle > h1{
-  position: absolute;
-  top: -3rem;
-  left: 4%;
-  font-size: 3rem;
-  z-index: 2;
-}
-.stepTitle > p{
-  position: absolute;
-  top: -8rem;
-  z-index: 1;
-  font-size: 20rem;
-  margin: 0;
-  font-weight: 800;
-  opacity: 0.3;
-}
-
-.testomonials{
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-}
-
-/*About Component  */
-.aboutHead{
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  margin-bottom: 2rem;
-}
-.aboutHead > *{
-  margin: auto;
-}
-.aboutSvg{
-  min-width: 300px;
-  max-width: 40vw;
-  margin: 0 auto;
-}
-.team > div{
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-}
-.officeDetails{
-  margin: auto 0;
-}
-.officeDetails > .btnContainer{
-  justify-content: flex-start;
-}
-.officeImgCont{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-.officeImg{
-  width: 90%;
-  max-width: 200px;
-  margin: auto;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  border-radius: 6%;
-}
-.grid-2-col{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1rem;
-  margin-bottom: 1rem;
-}
 
 /* Footer */
 .callToAct{
@@ -488,14 +220,14 @@ input[type="checkbox"]{
 }
 
 /* svgAnimation */
-@keyframes slideSvg {
+/* @keyframes slideSvg {
   from{
     transform: translateX(-25%);
   }
   to{
     transform: translate(25%);
   } 
-}
+} */
 
 @media only screen and (max-width: 550px) {
   #root {

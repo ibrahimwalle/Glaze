@@ -10,7 +10,7 @@
     }
     @keyframes grow {
       from{
-        width: 0;
+        width: 27px;
       }
       to{
       }

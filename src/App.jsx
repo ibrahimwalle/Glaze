@@ -19,6 +19,8 @@ import AP from './assets/images/work/A&P.svg';
 
 
 import './App.css';
+import './routes/routes.css';
+import './components/components.css';
 
 function App() {  
   const offices = [
