@@ -3,6 +3,13 @@
 .home{
     text-align: center;
   }
+  .home > *{
+    z-index: 2;
+  }
+  .home > h1{
+    max-width: 600px;
+    margin: 1rem auto;
+  }
   /* Rotating Svg */
   .polygonContainer{
     position: absolute;
@@ -145,6 +152,7 @@
   
   
   .stratContainer {
+    min-height: 400px;
     margin-bottom: 3rem;
   }
   .stratGrid{
@@ -158,8 +166,8 @@
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 1rem;
   }
-  .step{
-    border-top: 4px solid var(--grey);
+  .step > h3 {
+    border-bottom: 4px solid var(--grey);
   }
   .stepTitle{
     border: none;
@@ -174,11 +182,12 @@
   .stepTitle > p{
     position: absolute;
     top: -8rem;
-    z-index: 1;
-    font-size: 20rem;
     margin: 0;
+    z-index: 1;
+    color: var(--accent1);
+    font-size: 20rem;
     font-weight: 800;
-    opacity: 0.3;
+    opacity: 0.2;
   }
   
   .testomonials{
@@ -196,6 +205,7 @@
     margin: auto;
   }
   .aboutSvg{
+    width: 100%;
     min-width: 300px;
     max-width: 40vw;
     margin: 0 auto;

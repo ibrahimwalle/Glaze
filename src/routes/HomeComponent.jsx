@@ -45,13 +45,13 @@ function HomeComponent({workCards, slideShow, setActiveLink}) {
   
     return (
       <div className='homeComponent'>
-            <span className='polygonContainer'>
-              <img className='svg' src={Polygon} alt="Logo" />
-            </span>
             <section className='home'>
+              <span className='polygonContainer'>
+                <img className='svg' src={Polygon} alt="Logo" />
+              </span>
               <h1>{homeTitle}</h1>
               <div className='btnContainer'> 
-                <Link to={'/work'} onClick={()=>setActiveLink('work')}><button>Our Work</button></Link>
+                <Link to={'/work'} onClick={()=>setActiveLink('work')}><button className='purple'>Our Work</button></Link>
                 <Link to={'/services'} onClick={()=>setActiveLink('services')}><button className='oddBtn'>What we do</button></Link>
               </div>
             </section>

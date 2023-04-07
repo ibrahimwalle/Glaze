@@ -24,7 +24,7 @@ p{
 section{
   z-index: 2;
   position: relative;
-  min-height: 30vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -76,6 +76,10 @@ button:hover{
 
 /*element specific styling */
 /* Navigation */
+.navContainer{
+  display: flex;
+  justify-content: space-between;
+}
 .navWrapper{
   z-index: 3;
   position: fixed;
@@ -91,11 +95,12 @@ button:hover{
   background-color: var(--accent1);
 }
 .menu-btn{
-  position: absolute;
+  position: sticky;
   z-index: 4;
+  margin-right: 2rem;
   /* right: 20px; */
-  top: 30px;
-  right: 5%;
+  /* top: 30px;
+  right: 5%; */
   height: 50px;
   width: 50px;
   border-radius: 50%;

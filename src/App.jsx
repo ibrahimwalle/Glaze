@@ -100,22 +100,24 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Link to={'/home'} onClick={()=>{setActiveLink('home')}}>
-          <ReactSVG className='logo' src={Logo} alt="Logo" />
-        </Link>
-        <div className="nav">
-          <input type="checkbox" id="active" />
-          <label for="active" class="menu-btn" ref={menuBtn}><ReactSVG className='menuBtnSvg' ref={menuBtnSvg} src={currentMenu} onClick={toggleNav}/></label>
-          <div class="navWrapper">
-            <ul className="navLinks">
-              <div className="dotContainer" ref={dot}>
-                <div className='dot'></div>
-              </div>
-              <Link to={"/home"} data-path={'home'} onMouseEnter={animateDot} onMouseLeave={animateDotDefault} onClick={navigate}>Home</Link>
-              <Link to={"/work"}  data-path={'work'} onMouseEnter={animateDot} onMouseLeave={animateDotDefault} onClick={navigate}>Work</Link>
-              <Link to={"/services"} data-path={'services'} onMouseEnter={animateDot} onMouseLeave={animateDotDefault} onClick={navigate}>Services</Link>
-              <Link to={"/about"} data-path={'about'} onMouseEnter={animateDot} onMouseLeave={animateDotDefault} onClick={navigate}>About</Link>
-            </ul>
+        <div className='navContainer'>
+          <Link to={'/home'} onClick={()=>{setActiveLink('home')}}>
+            <ReactSVG className='logo' src={Logo} alt="Logo" />
+          </Link>
+          <div className="nav">
+            <input type="checkbox" id="active" />
+            <label for="active" class="menu-btn" ref={menuBtn}><ReactSVG className='menuBtnSvg' ref={menuBtnSvg} src={currentMenu} onClick={toggleNav}/></label>
+            <div class="navWrapper">
+              <ul className="navLinks">
+                <div className="dotContainer" ref={dot}>
+                  <div className='dot'></div>
+                </div>
+                <Link to={"/home"} data-path={'home'} onMouseEnter={animateDot} onMouseLeave={animateDotDefault} onClick={navigate}>Home</Link>
+                <Link to={"/work"}  data-path={'work'} onMouseEnter={animateDot} onMouseLeave={animateDotDefault} onClick={navigate}>Work</Link>
+                <Link to={"/services"} data-path={'services'} onMouseEnter={animateDot} onMouseLeave={animateDotDefault} onClick={navigate}>Services</Link>
+                <Link to={"/about"} data-path={'about'} onMouseEnter={animateDot} onMouseLeave={animateDotDefault} onClick={navigate}>About</Link>
+              </ul>
+            </div>
           </div>
         </div>
         {/* <div className="nav">
